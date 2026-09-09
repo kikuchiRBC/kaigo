@@ -561,7 +561,7 @@ let QuizData1  = [
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
   "image": "images/28.png",
-  "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、あしたタクシーで<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
+  "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、あした<ruby>看護師<rt>かんごし</rt></ruby>と<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
   "choices": [
     "<ruby>鈴木<rt>すずき</rt></ruby>さんは、あした10<ruby>時<rt>じ</rt></ruby>10<ruby>分前<rt>ぷんまえ</rt></ruby>に、<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
     "<ruby>鈴木<rt>すずき</rt></ruby>さんは、あしたタクシーで<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
@@ -573,7 +573,7 @@ let QuizData1  = [
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
   "image": "images/29.png",
-  "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>朝食<rt>ちょうしょく</rt></ruby>のとき、お<ruby>茶<rt>ちゃ</rt></ruby>を200mL<ruby>飲<rt>の</rt></ruby>みました。",
+  "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>夜中<rt>よなか</rt></ruby>に<ruby>吐<rt>は</rt></ruby>きました。",
   "choices": [
     "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くて、<ruby>夕食<rt>ゆうしょく</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>しました。",
     "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>朝食<rt>ちょうしょく</rt></ruby>のとき、お<ruby>茶<rt>ちゃ</rt></ruby>を200mL<ruby>飲<rt>の</rt></ruby>みました。",
