@@ -123,7 +123,7 @@ let QuizData1  = [
 {type: "text",
     question:"⑥のからだのことばはどれですか。",
     image:"images/kaigo7.webp",
-    answer:"手のひら",
+    answer:"指（ゆび）",
     choices:[
         "手のひら",
         "指（ゆび）",
@@ -156,7 +156,7 @@ let QuizData1  = [
 {type: "text",
     question:"⑨のからだのことばはどれですか。",
     image:"images/kaigo7.webp",
-    answer:"つまさき",
+    answer:"手の甲（こう）",
     choices:[
         "手の甲（こう）",
         "つまさき",
@@ -189,11 +189,11 @@ let QuizData1  = [
 {type: "text",
     question:"③のからだのことばはどれですか。",
     image:"images/kaigo8.webp",
-    answer:"背中（せなか）",
+    answer:"胸（むね）",
     choices:[
         "手の甲（こう）",
         "つまさき",
-        "足首（あしくび）",
+        "胸（むね）",
         "背中（せなか）"
     ]
 },
