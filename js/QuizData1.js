@@ -308,7 +308,7 @@ let QuizData1  = [
 },
 {type: "text",
     question:"＿＿＿＿＿＿＿＿の中に入ることばをえらんでください。",
-    image:"images/4.png",
+    image:"images/5.png",
     answer:"じゃ、<ruby>洗濯物<rt>せんたくもの</rt></ruby>のたたみ方を<ruby>教<rt>おし</rt></ruby>えてもらえませんか。",
     choices:[
         "じゃ、お<ruby>手伝<rt>てつだ</rt></ruby>いしましょうか。",
@@ -319,7 +319,7 @@ let QuizData1  = [
 },
 {type: "text",
     question:"＿＿＿＿＿＿＿＿の中に入ることばをえらんでください。",
-    image:"images/5.png",
+    image:"images/6.png",
     answer:"テーブルがきれいになりましたね。",
     choices:[
         "テーブルを<ruby>拭<rt>ふ</rt></ruby>いてください。",
@@ -328,17 +328,7 @@ let QuizData1  = [
 		"テーブルがきれいになりましたね。" 
 		 ]
 },
-{type: "text",
-    question:"文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
-    image:"images/6.png",
-    answer:"<ruby>佐藤<rt>さとう</rt></ruby>さんは、<ruby>夜<rt>よる</rt></ruby>はポータブルトイレで<ruby>排泄<rt>はいせつ</rt></ruby>をしています。",
-    choices:[
-        "<ruby>佐藤<rt>さとう</rt></ruby>さんは、<ruby>排泄<rt>はいせつ</rt></ruby>が<ruby>自立<rt>じりつ</rt></ruby>しています。",
-        "<ruby>佐藤<rt>さとう</rt></ruby>さんは、いつもトイレに行って、<ruby>排泄<rt>はいせつ</rt></ruby>をしています。",
-        "<ruby>佐藤<rt>さとう</rt></ruby>さんは、<ruby>夜<rt>よる</rt></ruby>はポータブルトイレで<ruby>排泄<rt>はいせつ</rt></ruby>をしています。",
-		"<ruby>佐藤<rt>さとう</rt></ruby>さんは、<ruby>失禁<rt>しっきん</rt></ruby>があります。" 
-		 ]
-},
+
 {
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
@@ -401,7 +391,7 @@ let QuizData1  = [
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
   "image": "images/12.png",
-  "answer": "<ruby>車<rt>くるま</rt></ruby>いすを<ruby>使<rt>つか</rt></ruby>った<ruby>後<rt>あと</rt></ruby>に、ブレーキとタイヤを<ruby>確認<rt>かくにん</rt></ruby>します。",
+  "answer": "<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>車<rt>くるま</rt></ruby>いすに<ruby>乗<rt>の</rt></ruby>るときは、ブレーキをかけます。",
   "choices": [
     "<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>車<rt>くるま</rt></ruby>いすに<ruby>乗<rt>の</rt></ruby>るときは、ブレーキをかけます。",
     "<ruby>車<rt>くるま</rt></ruby>いすを<ruby>使<rt>つか</rt></ruby>うときは、いつもブレーキをかけます。",
@@ -413,7 +403,7 @@ let QuizData1  = [
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
   "image": "images/13.png",
-  "answer": "<ruby>火事<rt>かじ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたら、まず<ruby>非常<rt>ひじょう</rt></ruby>ベルを<ruby>押<rt>お</rt></ruby>します。",
+  "answer": "<ruby>火事<rt>かじ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたら、まず<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>に<ruby>知<rt>し</rt></ruby>らせます。",
   "choices": [
     "<ruby>火事<rt>かじ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたら、まず<ruby>周<rt>まわ</rt></ruby>りの<ruby>人<rt>ひと</rt></ruby>に<ruby>知<rt>し</rt></ruby>らせます。",
     "<ruby>火事<rt>かじ</rt></ruby>が<ruby>起<rt>お</rt></ruby>きたら、まず<ruby>非常<rt>ひじょう</rt></ruby>ベルを<ruby>押<rt>お</rt></ruby>します。",
@@ -487,7 +477,7 @@ let QuizData1  = [
   "type": "text",
   "question": "<ruby>手<rt>て</rt></ruby>の<ruby>洗<rt>あら</rt></ruby>い<ruby>方<rt>かた</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
   "image": "images/20.png",
-  "answer": "せっけん<ruby>液<rt>えき</rt></ruby>で<ruby>手首<rt>てくび</rt></ruby>を<ruby>洗<rt>あら</rt></ruby>ったら、<ruby>乾<rt>かわ</rt></ruby>かします。",
+  "answer": "<ruby>指先<rt>ゆびさき</rt></ruby>をよく<ruby>洗<rt>あら</rt></ruby>って、きれいにします。",
   "choices": [
     "はじめに、せっけん<ruby>液<rt>えき</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>います。",
     "せっけん<ruby>液<rt>えき</rt></ruby>をつけたら、<ruby>手<rt>て</rt></ruby>を<ruby>乾<rt>かわ</rt></ruby>かします。",
@@ -499,7 +489,7 @@ let QuizData1  = [
   "type": "text",
   "question": "<ruby>上<rt>うえ</rt></ruby>の<ruby>献立表<rt>こんだてひょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
   "image": "images/21.png",
-  "answer": "<ruby>副食<rt>ふくしょく</rt></ruby>は、<ruby>果物<rt>くだもの</rt></ruby>やヨーグルトです。",
+  "answer": "<ruby>副食<rt>ふくしょく</rt></ruby>は、<ruby>毎日<rt>まいにち</rt></ruby>みそ<ruby>汁<rt>しる</rt></ruby>があります。",
   "choices": [
     "<ruby>副食<rt>ふくしょく</rt></ruby>は、いつもご<ruby>飯<rt>はん</rt></ruby>です。",
     "<ruby>副食<rt>ふくしょく</rt></ruby>は、<ruby>果物<rt>くだもの</rt></ruby>やヨーグルトです。",
@@ -558,7 +548,7 @@ let QuizData1  = [
 {
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
-  "image": "images/26.png",
+  "image": "images/27.png",
   "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>午後<rt>ごご</rt></ruby>3<ruby>時<rt>じ</rt></ruby>に<ruby>送迎車<rt>そうげいしゃ</rt></ruby>で<ruby>帰<rt>かえ</rt></ruby>ります。",
   "choices": [
     "あした<ruby>入<rt>はい</rt></ruby>る<ruby>利用者<rt>りようしゃ</rt></ruby>は、3<ruby>人<rt>にん</rt></ruby>です。",
@@ -570,7 +560,7 @@ let QuizData1  = [
 {
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
-  "image": "images/27.png",
+  "image": "images/28.png",
   "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、あしたタクシーで<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
   "choices": [
     "<ruby>鈴木<rt>すずき</rt></ruby>さんは、あした10<ruby>時<rt>じ</rt></ruby>10<ruby>分前<rt>ぷんまえ</rt></ruby>に、<ruby>病院<rt>びょういん</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きます。",
@@ -582,7 +572,7 @@ let QuizData1  = [
 {
   "type": "text",
   "question": "文の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>んでください。",
-  "image": "images/28.png",
+  "image": "images/29.png",
   "answer": "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>朝食<rt>ちょうしょく</rt></ruby>のとき、お<ruby>茶<rt>ちゃ</rt></ruby>を200mL<ruby>飲<rt>の</rt></ruby>みました。",
   "choices": [
     "<ruby>鈴木<rt>すずき</rt></ruby>さんは、<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>くて、<ruby>夕食<rt>ゆうしょく</rt></ruby>を<ruby>残<rt>のこ</rt></ruby>しました。",
