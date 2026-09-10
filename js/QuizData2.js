@@ -396,4 +396,505 @@ choices:[
 "<ruby>厳<rt>きび</rt></ruby>しく<ruby>指導<rt>しどう</rt></ruby>すること"
 ]
 },
+{
+  "type": "text",
+  "question": "<ruby>左片麻痺<rt>ひだりかたまひ</rt></ruby>がある<ruby>人<rt>ひと</rt></ruby>の<ruby>上衣<rt>うわぎ</rt></ruby>の<ruby>着脱介助<rt>ちゃくだつかいじょ</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>次<rt>つぎ</rt></ruby>の<ruby>記述<rt>きじゅつ</rt></ruby>のうち、<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと></rt>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "answer": "<ruby>着<rt>き</rt></ruby>るときは、<ruby>左腕<rt>ひだりうで</rt></ruby>を<ruby>先<rt>さき</rt></ruby>にとおす。",
+  "choices": [
+    "ボタンのある<ruby>服<rt>ふく</rt></ruby>は<ruby>避<rt>さ</rt></ruby>ける。",
+    "<ruby>着<rt>き</rt></ruby>るときは、<ruby>左腕<rt>ひだりうで</rt></ruby>を<ruby>先<rt>さき</rt></ruby>にとおす。",
+    "<ruby>脱<rt>ぬ</rt></ruby>ぐときは、<ruby>左腕<rt>ひだりうで</rt></ruby>から<ruby>先<rt>さき</rt></ruby>に<ruby>脱<rt>ぬ</rt></ruby>ぐ。",
+    "<ruby>全介助<rt>ぜんかいじょ</rt></ruby>する。"
+  ]
+},
+{
+  "type": "text",
+  "question": "<ruby>排泄<rt>はいせつ</rt></ruby>の<ruby>介護<rt>かいご</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>次<rt>つぎ</rt></ruby>の<ruby>記述<rt>きじゅつ</rt></ruby>のうち、<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "answer": "プライバシーに<ruby>配慮<rt>はいりょ</rt></ruby>する。",
+  "choices": [
+    "<ruby>下痢<rt>げり</rt></ruby>のときは、<ruby>水分<rt>すいぶん</rt></ruby>を<ruby>摂<rt>と</rt></ruby>ることを<ruby>控<rt>ひか</rt></ruby>える。",
+    "<ruby>便秘<rt>べんぴ</rt></ruby>の<ruby>改善<rt>かいぜん</rt></ruby>に、<ruby>運動<rt>うんどう</rt></ruby>は<ruby>関係<rt>かんけい</rt></ruby>ない。",
+    "<ruby>積極的<rt>せっきょくてき</rt></ruby>におむつを<ruby>使用<rt>しよう</rt></ruby>する。",
+    "プライバシーに<ruby>配慮<rt>はいりょ</rt></ruby>する。"
+  ]
+},
+{
+  "type": "text",
+  "question": "コミュニケーションに<ruby>関<rt>かん</rt></ruby>する<ruby>次<rt>つぎ</rt></ruby>の<ruby>記述<rt>きじゅつ</rt></ruby>のうち、<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "answer": "<ruby>相手<rt>あいて</rt></ruby>の<ruby>表情<rt>ひょうじょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く。",
+  "choices": [
+    "<ruby>常<rt>つね</rt></ruby>に<ruby>大<rt>おお</rt></ruby>きな<ruby>声<rt>こえ</rt></ruby>で<ruby>話<rt>はな</rt></ruby>しかける。",
+    "わからない<ruby>言葉<rt>ことば</rt></ruby>は、<ruby>黙<rt>だま</rt></ruby>っている。",
+    "<ruby>相手<rt>あいて</rt></ruby>の<ruby>表情<rt>ひょうじょう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>話<rt>はなし</rt></ruby>を<ruby>聞<rt>き</rt></ruby>く。",
+    "<ruby>身振<rt>みぶ</rt></ruby>りや<ruby>手振<rt>てぶ</rt></ruby>りを<ruby>使<rt>つか</rt></ruby>わないようにする。"
+  ]
+},
+{
+  "type": "text",
+  "question": "<ruby>右片麻痺<rt>みぎかたまひ</rt></ruby>があり、<ruby>杖<rt>つえ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>っている<ruby>人<rt>ひと</rt></ruby>の<ruby>移動<rt>いどう</rt></ruby>の<ruby>基本的<rt>きほんてき</rt></ruby>な<ruby>介護<rt>かいご</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>なものを<ruby>一<rt>ひと</rt></ruby>つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "answer": "<ruby>介護者<rt>かいごしゃ</rt></ruby>は<ruby>右後方<rt>みぎこうほう</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ。",
+  "choices": [
+    "<ruby>介護者<rt>かいごしゃ</rt></ruby>は<ruby>右前方<rt>みぎぜんぽう</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ。",
+    "<ruby>介護者<rt>かいごしゃ</rt></ruby>は<ruby>右後方<rt>みぎこうほう</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ。",
+    "<ruby>介護者<rt>かいごしゃ</rt></ruby>は<ruby>左前方<rt>ひだりぜんぽう</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ。",
+    "<ruby>介護者<rt>かいごしゃ</rt></ruby>は<ruby>左後方<rt>ひだりこうほう</rt></ruby>に<ruby>立<rt>た</rt></ruby>つ。"
+  ]
+},
+{
+  "type": "text",
+  "question": "<ruby>自己決定<rt>じこけってい</rt></ruby>を<ruby>支援<rt>しえん</rt></ruby>する<ruby>上<rt>うえ</rt></ruby>で<ruby>把握<rt>はあく</rt></ruby>すべき<ruby>内容<rt>ないよう</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "answer": "<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>希望<rt>きぼう</rt></ruby>",
+  "choices": [
+    "<ruby>家族<rt>かぞく</rt></ruby>の<ruby>意向<rt>いこう</rt></ruby>",
+    "<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>希望<rt>きぼう</rt></ruby>",
+    "<ruby>医師<rt>いし</rt></ruby>の<ruby>判断<rt>はんだん</rt></ruby>",
+    "<ruby>経済状況<rt>けいざいじょうきょう</rt></ruby>"
+  ]
+},
+{
+  "type": "text",
+  "question": "<ruby>老化<rt>ろうか</rt></ruby>にともなう<ruby>高齢者<rt>こうれいしゃ</rt></ruby>のからだの<ruby>変化<rt>へんか</rt></ruby>に<ruby>関<rt>かん</rt></ruby>して、<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+  "answer": "<ruby>視野<rt>しや</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>くなる。",
+  "choices": [
+    "<ruby>個人差<rt>こじんさ</rt></ruby>は<ruby>少<rt>すく</rt></ruby>ない。",
+    "<ruby>低<rt>ひく</rt></ruby>い<ruby>音<rt>おと</rt></ruby>は、<ruby>聞<rt>き</rt></ruby>こえにくくなる。",
+    "<ruby>暑<rt>あつ</rt></ruby>さと<ruby>寒<rt>さむ</rt></ruby>さを、<ruby>感<rt>かん</rt></ruby>じやすくなる。",
+    "<ruby>視野<rt>しや</rt></ruby>が<ruby>狭<rt>せま</rt></ruby>くなる。"
+  ]
+},
+{
+    question: "<ruby>経済連携協定<rt>けいざいれんけいきょうてい</rt></ruby>（Economic Partnership Agreement）に<ruby>基<rt>もと</rt></ruby>づく<ruby>介護福祉候補者等受入<rt>かいごふくしこうほしゃとううけいれ</rt></ruby>は、<ruby>何年度<rt>なんねんど</rt></ruby>（<ruby>平成何年度<rt>へいせいなんねんど</rt></ruby>）から<ruby>始<rt>はじ</rt></ruby>まったか。",
+    choices: [
+        "2006<ruby>年度<rt>ねんど</rt></ruby>（<ruby>平成<rt>へいせい</rt></ruby>18<ruby>年度<rt>ねんど</rt></ruby>）",
+        "2007<ruby>年度<rt>ねんど</rt></ruby>（<ruby>平成<rt>へいせい</rt></ruby>19<ruby>年度<rt>ねんど</rt></ruby>）",
+        "2008<ruby>年度<rt>ねんど</rt></ruby>（<ruby>平成<rt>へいせい</rt></ruby>20<ruby>年度<rt>ねんど</rt></ruby>）",
+        "2009<ruby>年度<rt>ねんど</rt></ruby>（<ruby>平成<rt>へいせい</rt></ruby>21<ruby>年度<rt>ねんど</rt></ruby>）"
+    ],
+    answer: "2008<ruby>年度<rt>ねんど</rt></ruby>（<ruby>平成<rt>へいせい</rt></ruby>20<ruby>年度<rt>ねんど</rt></ruby>）"
+},
+{
+    question: "<ruby>経済連携協定<rt>けいざいれんけいきょうてい</rt></ruby>（Economic Partnership Agreement）に<ruby>基<rt>もと</rt></ruby>づく<ruby>介護福祉候補者等受入施設<rt>かいごふくしこうほしゃとううけいれしせつ</rt></ruby>の<ruby>要件<rt>ようけん</rt></ruby>は、<ruby>常勤介護職員<rt>じょうきんかいごしょくいん</rt></ruby>の<ruby>何割以上<rt>なんわりいじょう</rt></ruby>が<ruby>介護福祉士<rt>かいごふくしし</rt></ruby>であることか。",
+    choices: [
+        "1<ruby>割以上<rt>わりいじょう</rt></ruby>",
+        "2<ruby>割以上<rt>わりいじょう</rt></ruby>",
+        "3<ruby>割以上<rt>わりいじょう</rt></ruby>",
+        "4<ruby>割以上<rt>わりいじょう</rt></ruby>"
+    ],
+    answer: "4<ruby>割以上<rt>わりいじょう</rt></ruby>"
+},
+
+{
+    question: "<ruby>社会福祉士及<rt>しゃかいふくししおよ</rt></ruby>び<ruby>介護福祉士法第<rt>かいごふくししほうだい</rt></ruby>44<ruby>条<rt>じょう</rt></ruby>の2では、<ruby>何義務<rt>なにぎむ</rt></ruby>が<ruby>規定<rt>きてい</rt></ruby>されているか。",
+    choices: [
+        "<ruby>守秘義務<rt>しゅひぎむ</rt></ruby>",
+        "<ruby>誠実義務<rt>せいじつぎむ</rt></ruby>",
+        "<ruby>報告義務<rt>ほうこくぎむ</rt></ruby>",
+        "<ruby>説明義務<rt>せつめいぎむ</rt></ruby>"
+    ],
+    answer: "<ruby>誠実義務<rt>せいじつぎむ</rt></ruby>"
+},
+
+{
+    question: "<ruby>社会福祉士及<rt>しゃかいふくししおよ</rt></ruby>び<ruby>介護福祉士法第<rt>かいごふくししほうだい</rt></ruby>45<ruby>条<rt>じょう</rt></ruby>では、<ruby>何<rt>なに</rt></ruby>の<ruby>禁止<rt>きんし</rt></ruby>が<ruby>規定<rt>きてい</rt></ruby>されているか。",
+    choices: [
+        "<ruby>秘密漏洩行為<rt>ひみつろうえいこうい</rt></ruby>の<ruby>禁止<rt>きんし</rt></ruby>",
+        "<ruby>信用失墜行為<rt>しんようしっついこうい</rt></ruby>の<ruby>禁止<rt>きんし</rt></ruby>",
+        "<ruby>不当請求行為<rt>ふとうせいきゅうこうい</rt></ruby>の<ruby>禁止<rt>きんし</rt></ruby>",
+        "<ruby>虚偽報告行為<rt>きょぎほうこくこうい</rt></ruby>の<ruby>禁止<rt>きんし</rt></ruby>"
+    ],
+    answer: "<ruby>信用失墜行為<rt>しんようしっついこうい</rt></ruby>の<ruby>禁止<rt>きんし</rt></ruby>"
+},
+{
+    question:"<ruby>他者<rt>たしゃ</rt></ruby>とのコミュニケーション<ruby>場面<rt>ばめん</rt></ruby>での<ruby>自己覚知<rt>じこかくち</rt></ruby>は、<ruby>自己<rt>じこ</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>の<ruby>動<rt>うご</rt></ruby>きとその<ruby>背景<rt>はいけい</rt></ruby>を<ruby>洞察<rt>どうさつ</rt></ruby>することである。",
+    choices:[
+        "<ruby>自己<rt>じこ</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>や<ruby>考<rt>かんが</rt></ruby>えを<ruby>客観的<rt>きゃっかんてき</rt></ruby>に<ruby>理解<rt>りかい</rt></ruby>すること",
+        "<ruby>相手<rt>あいて</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>だけを<ruby>分析<rt>ぶんせき</rt></ruby>すること",
+        "コミュニケーションを<ruby>避<rt>さ</rt></ruby>けること",
+        "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>相手<rt>あいて</rt></ruby>に<ruby>押<rt>お</rt></ruby>し<ruby>付<rt>つ</rt></ruby>けること"
+    ],
+    answer:"<ruby>自己<rt>じこ</rt></ruby>の<ruby>感情<rt>かんじょう</rt></ruby>や<ruby>考<rt>かんが</rt></ruby>えを<ruby>客観的<rt>きゃっかんてき</rt></ruby>に<ruby>理解<rt>りかい</rt></ruby>すること"
+},
+{
+    question:"<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>尊厳<rt>そんげん</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>えるための<ruby>基本<rt>きほん</rt></ruby>となる<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>も一人の<ruby>人間<rt>にんげん</rt></ruby>として<ruby>尊重<rt>そんちょう</rt></ruby>されなければならない。",
+        "<ruby>生活<rt>せいかつ</rt></ruby>は<ruby>介護<rt>かいご</rt></ruby>をする<ruby>家族<rt>かぞく</rt></ruby>が<ruby>主体<rt>しゅたい</rt></ruby>となる。",
+        "QOLを<ruby>低<rt>ひく</rt></ruby>くすることが<ruby>大切<rt>たいせつ</rt></ruby>である。",
+        "<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>は<ruby>普通<rt>ふつう</rt></ruby>に<ruby>生活<rt>せいかつ</rt></ruby>することを<ruby>我慢<rt>がまん</rt></ruby>する<ruby>必要<rt>ひつよう</rt></ruby>がある。"
+    ],
+    answer:"<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>も一人の<ruby>人間<rt>にんげん</rt></ruby>として<ruby>尊重<rt>そんちょう</rt></ruby>されなければならない。"
+},
+{
+    question:"<ruby>介護<rt>かいご</rt></ruby>における<ruby>自立支援<rt>じりつしえん</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>となる<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>家族<rt>かぞく</rt></ruby>の<ruby>意向<rt>いこう</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>して、<ruby>家族<rt>かぞく</rt></ruby>が<ruby>生活<rt>せいかつ</rt></ruby>のしかたや<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>選択<rt>せんたく</rt></ruby>し、<ruby>決定<rt>けってい</rt></ruby>する。",
+        "<ruby>医師<rt>いし</rt></ruby>の<ruby>判断<rt>はんだん</rt></ruby>を<ruby>尊重<rt>そんちょう</rt></ruby>して、<ruby>医師<rt>いし</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>をもとに、<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>のしかたや<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>判断<rt>はんだん</rt></ruby>する。",
+        "<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>価値観<rt>かちかん</rt></ruby>やこだわりは<ruby>重視<rt>じゅうし</rt></ruby>するべきではない。",
+        "<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>身体的<rt>しんたいてき</rt></ruby>な<ruby>自立<rt>じりつ</rt></ruby>だけでなく<ruby>精神的<rt>せいしんてき</rt></ruby>な<ruby>自立<rt>じりつ</rt></ruby>も<ruby>支援<rt>しえん</rt></ruby>しなければならない。"
+    ],
+    answer:"<ruby>介護<rt>かいご</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>身体的<rt>しんたいてき</rt></ruby>な<ruby>自立<rt>じりつ</rt></ruby>だけでなく<ruby>精神的<rt>せいしんてき</rt></ruby>な<ruby>自立<rt>じりつ</rt></ruby>も<ruby>支援<rt>しえん</rt></ruby>しなければならない。"
+},
+{
+    question:"<ruby>移動<rt>いどう</rt></ruby>の<ruby>介護場面<rt>かいごばめん</rt></ruby>におけるボディメカニクスの<ruby>原則<rt>げんそく</rt></ruby>の<ruby>活用<rt>かつよう</rt></ruby>について、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護<rt>かいご</rt></ruby>する<ruby>側<rt>がわ</rt></ruby>とされる<ruby>側<rt>がわ</rt></ruby>の<ruby>重心<rt>じゅうしん</rt></ruby>を<ruby>遠<rt>とお</rt></ruby>ざける。",
+        "<ruby>重心<rt>じゅうしん</rt></ruby>の<ruby>移動<rt>いどう</rt></ruby>はできるだけ<ruby>水平<rt>すいへい</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>手前<rt>てまえ</rt></ruby>に「<ruby>引<rt>ひ</rt></ruby>く」よりも、「<ruby>押<rt>お</rt></ruby>す」ようにする。",
+        "<ruby>太<rt>ふと</rt></ruby>ももの<ruby>筋肉<rt>きんにく</rt></ruby>をできるだけ<ruby>使<rt>つか</rt></ruby>わず、<ruby>腰背部<rt>ようはいぶ</rt></ruby>の<ruby>筋肉<rt>きんにく</rt></ruby>を<ruby>利用<rt>りよう</rt></ruby>する。"
+    ],
+    answer:"<ruby>手前<rt>てまえ</rt></ruby>に「<ruby>引<rt>ひ</rt></ruby>く」よりも、「<ruby>押<rt>お</rt></ruby>す」ようにする。"
+},
+{
+    question:"<ruby>ノーマライゼーション<rt>のーまらいぜーしょん</rt></ruby>の<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>として、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>高齢者<rt>こうれいしゃ</rt></ruby>や<ruby>障害者<rt>しょうがいしゃ</rt></ruby>を<ruby>一般社会<rt>いっぱんしゃかい</rt></ruby>から<ruby>分離<rt>ぶんり</rt></ruby>して<ruby>保護<rt>ほご</rt></ruby>すること。",
+        "<ruby>障害<rt>しょうがい</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>もない<ruby>人<rt>ひと</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じように<ruby>地域<rt>ちいき</rt></ruby>で<ruby>生活<rt>せいかつ</rt></ruby>できるようにすること。",
+        "<ruby>支援<rt>しえん</rt></ruby>を<ruby>必要<rt>ひつよう</rt></ruby>とする<ruby>人<rt>ひと</rt></ruby>の<ruby>意思<rt>いし</rt></ruby>より<ruby>家族<rt>かぞく</rt></ruby>の<ruby>意向<rt>いこう</rt></ruby>を<ruby>優先<rt>ゆうせん</rt></ruby>すること。",
+        "<ruby>介護者<rt>かいごしゃ</rt></ruby>がすべての<ruby>判断<rt>はんだん</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>うこと。"
+    ],
+    answer:"<ruby>障害<rt>しょうがい</rt></ruby>のある<ruby>人<rt>ひと</rt></ruby>もない<ruby>人<rt>ひと</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じように<ruby>地域<rt>ちいき</rt></ruby>で<ruby>生活<rt>せいかつ</rt></ruby>できるようにすること。"
+},{
+    question:"QOL（<ruby>生活<rt>せいかつ</rt></ruby>の<ruby>質<rt>しつ</rt></ruby>）についての<ruby>説明<rt>せつめい</rt></ruby>として、<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>病気<rt>びょうき</rt></ruby>がないことだけを<ruby>意味<rt>いみ</rt></ruby>する。",
+        "<ruby>身体的<rt>しんたいてき</rt></ruby>な<ruby>状態<rt>じょうたい</rt></ruby>だけで<ruby>評価<rt>ひょうか</rt></ruby>する。",
+        "<ruby>本人<rt>ほんにん</rt></ruby>が<ruby>満足<rt>まんぞく</rt></ruby>した<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>れているかを<ruby>含<rt>ふく</rt></ruby>めて<ruby>考<rt>かんが</rt></ruby>える。",
+        "<ruby>介護費用<rt>かいごひよう</rt></ruby>の<ruby>削減<rt>さくげん</rt></ruby>を<ruby>目的<rt>もくてき</rt></ruby>とする<ruby>考<rt>かんが</rt></ruby>えである。"
+    ],
+    answer:"<ruby>本人<rt>ほんにん</rt></ruby>が<ruby>満足<rt>まんぞく</rt></ruby>した<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>送<rt>おく</rt></ruby>れているかを<ruby>含<rt>ふく</rt></ruby>めて<ruby>考<rt>かんが</rt></ruby>える。"
+},{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>守秘義務<rt>しゅひぎむ</rt></ruby>について、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>退職後<rt>たいしょくご</rt></ruby>は<ruby>守秘義務<rt>しゅひぎむ</rt></ruby>がなくなる。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>個人情報<rt>こじんじょうほう</rt></ruby>は<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>なく<ruby>他人<rt>たにん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>してよい。",
+        "<ruby>守秘義務<rt>しゅひぎむ</rt></ruby>は<ruby>勤務中<rt>きんむちゅう</rt></ruby>だけに<ruby>適用<rt>てきよう</rt></ruby>される。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>秘密<rt>ひみつ</rt></ruby>を<ruby>正当<rt>せいとう</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>なく<ruby>漏<rt>も</rt></ruby>らしてはならない。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>秘密<rt>ひみつ</rt></ruby>を<ruby>正当<rt>せいとう</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>なく<ruby>漏<rt>も</rt></ruby>らしてはならない。"
+},{
+    question:"<ruby>認知症<rt>にんちしょう</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>とのコミュニケーションとして、<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>間違<rt>まちが</rt></ruby>いを<ruby>厳<rt>きび</rt></ruby>しく<ruby>指摘<rt>してき</rt></ruby>する。",
+        "<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>思<rt>おも</rt></ruby>いや<ruby>訴<rt>うった</rt></ruby>えを<ruby>受容<rt>じゅよう</rt></ruby>しながら<ruby>対応<rt>たいおう</rt></ruby>する。",
+        "<ruby>会話<rt>かいわ</rt></ruby>をせずに<ruby>介助<rt>かいじょ</rt></ruby>だけを<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>大声<rt>おおごえ</rt></ruby>で<ruby>命令<rt>めいれい</rt></ruby>する。"
+    ],
+    answer:"<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>思<rt>おも</rt></ruby>いや<ruby>訴<rt>うった</rt></ruby>えを<ruby>受容<rt>じゅよう</rt></ruby>しながら<ruby>対応<rt>たいおう</rt></ruby>する。"
+},{
+    question:"<ruby>感染予防<rt>かんせんよぼう</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby>として、もっとも<ruby>重要<rt>じゅうよう</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>手洗<rt>てあら</rt></ruby>いを<ruby>行<rt>おこな</rt></ruby>わない。",
+        "<ruby>手袋<rt>てぶくろ</rt></ruby>だけで<ruby>感染対策<rt>かんせんたいさく</rt></ruby>は<ruby>十分<rt>じゅうぶん</rt></ruby>である。",
+        "<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>手洗<rt>てあら</rt></ruby>いと<ruby>手指消毒<rt>しゅししょうどく</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>ごとに<ruby>手洗<rt>てあら</rt></ruby>いを<ruby>省略<rt>しょうりゃく</rt></ruby>する。"
+    ],
+    answer:"<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>手洗<rt>てあら</rt></ruby>いと<ruby>手指消毒<rt>しゅししょうどく</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。"
+},{
+    question:"<ruby>介護<rt>かいご</rt></ruby>における<ruby>報告<rt>ほうこく</rt></ruby>・<ruby>連絡<rt>れんらく</rt></ruby>・<ruby>相談<rt>そうだん</rt></ruby>（ホウレンソウ）の<ruby>目的<rt>もくてき</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>職員同士<rt>しょくいんどうし</rt></ruby>の<ruby>雑談<rt>ざつだん</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やすため。",
+        "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>共有<rt>きょうゆう</rt></ruby>し、よりよい<ruby>支援<rt>しえん</rt></ruby>につなげるため。",
+        "<ruby>責任<rt>せきにん</rt></ruby>を<ruby>他人<rt>たにん</rt></ruby>に<ruby>押<rt>お</rt></ruby>しつけるため。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>外部<rt>がいぶ</rt></ruby>へ<ruby>公開<rt>こうかい</rt></ruby>するため。"
+    ],
+    answer:"<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>共有<rt>きょうゆう</rt></ruby>し、よりよい<ruby>支援<rt>しえん</rt></ruby>につなげるため。"
+},
+{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>自己決定<rt>じこけってい</rt></ruby>を<ruby>支援<rt>しえん</rt></ruby>する<ruby>方法<rt>ほうほう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>家族<rt>かぞく</rt></ruby>が<ruby>決<rt>き</rt></ruby>めた<ruby>内容<rt>ないよう</rt></ruby>に<ruby>従<rt>したが</rt></ruby>わせる。",
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>最善<rt>さいぜん</rt></ruby>と<ruby>考<rt>かんが</rt></ruby>える<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>選択<rt>せんたく</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>し、<ruby>本人<rt>ほんにん</rt></ruby>が<ruby>選択<rt>せんたく</rt></ruby>できるようにする。",
+        "<ruby>時間<rt>じかん</rt></ruby>を<ruby>短縮<rt>たんしゅく</rt></ruby>するため<ruby>説明<rt>せつめい</rt></ruby>を<ruby>省略<rt>しょうりゃく</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>し、<ruby>本人<rt>ほんにん</rt></ruby>が<ruby>選択<rt>せんたく</rt></ruby>できるようにする。"
+},{
+    question:"<ruby>認知症<rt>にんちしょう</rt></ruby>のある<ruby>利用者<rt>りようしゃ</rt></ruby>が「<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>りたい」と<ruby>訴<rt>うった</rt></ruby>えた。<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>対応<rt>たいおう</rt></ruby>として<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "「ここが<ruby>家<rt>いえ</rt></ruby>です」と<ruby>強<rt>つよ</rt></ruby>く<ruby>否定<rt>ひてい</rt></ruby>する。",
+        "<ruby>訴<rt>うった</rt></ruby>えを<ruby>聞<rt>き</rt></ruby>き、<ruby>不安<rt>ふあん</rt></ruby>な<ruby>気持<rt>きも</rt></ruby>ちに<ruby>寄<rt>よ</rt></ruby>り<ruby>添<rt>そ</rt></ruby>う。",
+        "<ruby>無視<rt>むし</rt></ruby>して<ruby>話題<rt>わだい</rt></ruby>を<ruby>変<rt>か</rt></ruby>える。",
+        "<ruby>居室<rt>きょしつ</rt></ruby>に<ruby>一人<rt>ひとり</rt></ruby>で<ruby>戻<rt>もど</rt></ruby>して<ruby>様子<rt>ようす</rt></ruby>をみる。"
+    ],
+    answer:"<ruby>訴<rt>うった</rt></ruby>えを<ruby>聞<rt>き</rt></ruby>き、<ruby>不安<rt>ふあん</rt></ruby>な<ruby>気持<rt>きも</rt></ruby>ちに<ruby>寄<rt>よ</rt></ruby>り<ruby>添<rt>そ</rt></ruby>う。"
+},
+{
+    question:"<ruby>食事介助<rt>しょくじかいじょ</rt></ruby>で<ruby>誤嚥<rt>ごえん</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>するために、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>急<rt>いそ</rt></ruby>いで<ruby>食<rt>た</rt></ruby>べてもらう。",
+        "<ruby>顎<rt>あご</rt></ruby>をやや<ruby>引<rt>ひ</rt></ruby>いた<ruby>姿勢<rt>しせい</rt></ruby>で<ruby>食事<rt>しょくじ</rt></ruby>する。",
+        "<ruby>横<rt>よこ</rt></ruby>になったまま<ruby>食事<rt>しょくじ</rt></ruby>する。",
+        "<ruby>口<rt>くち</rt></ruby>いっぱいに<ruby>食<rt>た</rt></ruby>べ<ruby>物<rt>もの</rt></ruby>を<ruby>入<rt>い</rt></ruby>れる。"
+    ],
+    answer:"<ruby>顎<rt>あご</rt></ruby>をやや<ruby>引<rt>ひ</rt></ruby>いた<ruby>姿勢<rt>しせい</rt></ruby>で<ruby>食事<rt>しょくじ</rt></ruby>する。"
+},{
+    question:"<ruby>車<rt>くるま</rt></ruby>いすからベッドへの<ruby>移乗介助<rt>いじょうかいじょ</rt></ruby>で、ボディメカニクスを<ruby>活用<rt>かつよう</rt></ruby>した<ruby>方法<rt>ほうほう</rt></ruby>として<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>腰<rt>こし</rt></ruby>だけを<ruby>曲<rt>ま</rt></ruby>げて<ruby>持<rt>も</rt></ruby>ち<ruby>上<rt>あ</rt></ruby>げる。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>との<ruby>距離<rt>きょり</rt></ruby>をできるだけ<ruby>離<rt>はな</rt></ruby>す。",
+        "<ruby>重心<rt>じゅうしん</rt></ruby>を<ruby>低<rt>ひく</rt></ruby>くして<ruby>足<rt>あし</rt></ruby>の<ruby>筋力<rt>きんりょく</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う。",
+        "<ruby>腕<rt>うで</rt></ruby>の<ruby>力<rt>ちから</rt></ruby>だけで<ruby>介助<rt>かいじょ</rt></ruby>する。"
+    ],
+    answer:"<ruby>重心<rt>じゅうしん</rt></ruby>を<ruby>低<rt>ひく</rt></ruby>くして<ruby>足<rt>あし</rt></ruby>の<ruby>筋力<rt>きんりょく</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う。"
+},{
+    question:"<ruby>介護記録<rt>かいごきろく</rt></ruby>について、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>感想<rt>かんそう</rt></ruby>だけを<ruby>書<rt>か</rt></ruby>く。",
+        "<ruby>事実<rt>じじつ</rt></ruby>と<ruby>観察内容<rt>かんさつないよう</rt></ruby>を<ruby>具体的<rt>ぐたいてき</rt></ruby>に<ruby>記録<rt>きろく</rt></ruby>する。",
+        "<ruby>記録<rt>きろく</rt></ruby>は<ruby>口頭<rt>こうとう</rt></ruby>で<ruby>伝<rt>つた</rt></ruby>えれば<ruby>不要<rt>ふよう</rt></ruby>である。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>ごとに<ruby>記録方法<rt>きろくほうほう</rt></ruby>を<ruby>変<rt>か</rt></ruby>えない。"
+    ],
+    answer:"<ruby>事実<rt>じじつ</rt></ruby>と<ruby>観察内容<rt>かんさつないよう</rt></ruby>を<ruby>具体的<rt>ぐたいてき</rt></ruby>に<ruby>記録<rt>きろく</rt></ruby>する。"
+},{
+    question:"<ruby>高齢者<rt>こうれいしゃ</rt></ruby>の<ruby>脱水<rt>だっすい</rt></ruby>を<ruby>予防<rt>よぼう</rt></ruby>するための<ruby>支援<rt>しえん</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>水分摂取<rt>すいぶんせっしゅ</rt></ruby>をできるだけ<ruby>控<rt>ひか</rt></ruby>えてもらう。",
+        "<ruby>喉<rt>のど</rt></ruby>が<ruby>渇<rt>かわ</rt></ruby>いたと<ruby>言<rt>い</rt></ruby>ったときだけ<ruby>飲<rt>の</rt></ruby>んでもらう。",
+        "<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>水分補給<rt>すいぶんほきゅう</rt></ruby>を<ruby>勧<rt>すす</rt></ruby>める。",
+        "<ruby>食事中<rt>しょくじちゅう</rt></ruby>は<ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>を<ruby>禁止<rt>きんし</rt></ruby>する。"
+    ],
+    answer:"<ruby>定期的<rt>ていきてき</rt></ruby>に<ruby>水分補給<rt>すいぶんほきゅう</rt></ruby>を<ruby>勧<rt>すす</rt></ruby>める。"
+},{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>支援<rt>しえん</rt></ruby>するとき、もっとも<ruby>大切<rt>たいせつ</rt></ruby>な<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>として<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>理想<rt>りそう</rt></ruby>とする<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>勧<rt>すす</rt></ruby>める。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>暮<rt>く</rt></ruby>らし<ruby>方<rt>かた</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>理解<rt>りかい</rt></ruby>し、その<ruby>人<rt>ひと</rt></ruby>らしい<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>える。",
+        "<ruby>家族<rt>かぞく</rt></ruby>の<ruby>希望<rt>きぼう</rt></ruby>だけを<ruby>優先<rt>ゆうせん</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>同<rt>おな</rt></ruby>じ<ruby>生活方法<rt>せいかつほうほう</rt></ruby>を<ruby>勧<rt>すす</rt></ruby>める。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>暮<rt>く</rt></ruby>らし<ruby>方<rt>かた</rt></ruby>を<ruby>十分<rt>じゅうぶん</rt></ruby>に<ruby>理解<rt>りかい</rt></ruby>し、その<ruby>人<rt>ひと</rt></ruby>らしい<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>支<rt>ささ</rt></ruby>える。"
+},{
+    question:"<ruby>介護<rt>かいご</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>になると<ruby>起<rt>お</rt></ruby>こりやすいこととして、<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>や<ruby>行動<rt>こうどう</rt></ruby>がより<ruby>活発<rt>かっぱつ</rt></ruby>になる。",
+        "<ruby>家事能力<rt>かじのうりょく</rt></ruby>が<ruby>必<rt>かなら</rt></ruby>ず<ruby>向上<rt>こうじょう</rt></ruby>する。",
+        "<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>や<ruby>行動<rt>こうどう</rt></ruby>が<ruby>消極的<rt>しょうきょくてき</rt></ruby>になりやすい。",
+        "<ruby>地域<rt>ちいき</rt></ruby>とのつながりが<ruby>自動的<rt>じどうてき</rt></ruby>に<ruby>増<rt>ふ</rt></ruby>える。"
+    ],
+    answer:"<ruby>考<rt>かんが</rt></ruby>え<ruby>方<rt>かた</rt></ruby>や<ruby>行動<rt>こうどう</rt></ruby>が<ruby>消極的<rt>しょうきょくてき</rt></ruby>になりやすい。"
+},
+{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>役割<rt>やくわり</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>安全<rt>あんぜん</rt></ruby>よりも<ruby>効率<rt>こうりつ</rt></ruby>を<ruby>優先<rt>ゆうせん</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>にかわって、すべてのことを<ruby>決定<rt>けってい</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>意欲<rt>いよく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しながら、<ruby>安全面<rt>あんぜんめん</rt></ruby>にも<ruby>配慮<rt>はいりょ</rt></ruby>する。",
+        "<ruby>本人<rt>ほんにん</rt></ruby>よりも<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>都合<rt>つごう</rt></ruby>を<ruby>優先<rt>ゆうせん</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>意欲<rt>いよく</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しながら、<ruby>安全面<rt>あんぜんめん</rt></ruby>にも<ruby>配慮<rt>はいりょ</rt></ruby>する。"
+},
+{
+    question:"<ruby>入浴<rt>にゅうよく</rt></ruby>や<ruby>排泄<rt>はいせつ</rt></ruby>の<ruby>場面<rt>ばめん</rt></ruby>で、<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>配慮<rt>はいりょ</rt></ruby>すべきこととして、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護<rt>かいご</rt></ruby>を<ruby>急<rt>いそ</rt></ruby>ぐため、<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>気持<rt>きも</rt></ruby>ちは<ruby>考<rt>かんが</rt></ruby>えない。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>恥<rt>は</rt></ruby>ずかしい<ruby>思<rt>おも</rt></ruby>いをしないよう、プライバシーに<ruby>配慮<rt>はいりょ</rt></ruby>する。",
+        "<ruby>他<rt>ほか</rt></ruby>の<ruby>利用者<rt>りようしゃ</rt></ruby>から<ruby>見<rt>み</rt></ruby>える<ruby>場所<rt>ばしょ</rt></ruby>で<ruby>介助<rt>かいじょ</rt></ruby>する。",
+        "<ruby>着替<rt>きが</rt></ruby>えをしないで<ruby>介助<rt>かいじょ</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>恥<rt>は</rt></ruby>ずかしい<ruby>思<rt>おも</rt></ruby>いをしないよう、プライバシーに<ruby>配慮<rt>はいりょ</rt></ruby>する。"
+},
+{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>守秘義務<rt>しゅひぎむ</rt></ruby>について、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>個人情報<rt>こじんじょうほう</rt></ruby>は<ruby>自由<rt>じゆう</rt></ruby>に<ruby>SNS<rt>えすえぬえす</rt></ruby>へ<ruby>投稿<rt>とうこう</rt></ruby>してよい。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>個人情報<rt>こじんじょうほう</rt></ruby>は<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>なく<ruby>他人<rt>たにん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>してはならない。",
+        "<ruby>家族<rt>かぞく</rt></ruby>なら<ruby>誰<rt>だれ</rt></ruby>にでも<ruby>病歴<rt>びょうれき</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>えてよい。",
+        "<ruby>退職後<rt>たいしょくご</rt></ruby>は<ruby>守秘義務<rt>しゅひぎむ</rt></ruby>がなくなる。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>個人情報<rt>こじんじょうほう</rt></ruby>は<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>なく<ruby>他人<rt>たにん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>してはならない。"
+},{
+    question:"<ruby>SNS<rt>えすえぬえす</rt></ruby>の<ruby>利用<rt>りよう</rt></ruby>について、<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>として<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>許可<rt>きょか</rt></ruby>なく<ruby>投稿<rt>とうこう</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>病気<rt>びょうき</rt></ruby>について<ruby>友人<rt>ゆうじん</rt></ruby>に<ruby>送信<rt>そうしん</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>なく<ruby>発信<rt>はっしん</rt></ruby>しない。",
+        "<ruby>勤務中<rt>きんむちゅう</rt></ruby>の<ruby>出来事<rt>できごと</rt></ruby>を<ruby>毎日<rt>まいにち</rt></ruby><ruby>公開<rt>こうかい</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>なく<ruby>発信<rt>はっしん</rt></ruby>しない。"
+},{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>知<rt>し</rt></ruby>る<ruby>理由<rt>りゆう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>興味本位<rt>きょうみほんい</rt></ruby>で<ruby>知<rt>し</rt></ruby>るため。",
+        "<ruby>他<rt>ほか</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>に<ruby>話<rt>はな</rt></ruby>すため。",
+        "<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>介護<rt>かいご</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>するため。",
+        "<ruby>SNS<rt>えすえぬえす</rt></ruby>に<ruby>投稿<rt>とうこう</rt></ruby>するため。"
+    ],
+    answer:"<ruby>適切<rt>てきせつ</rt></ruby>な<ruby>介護<rt>かいご</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>するため。"
+},{
+    question:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>年齢<rt>ねんれい</rt></ruby>や<ruby>住所<rt>じゅうしょ</rt></ruby>、<ruby>病歴<rt>びょうれき</rt></ruby>などの<ruby>個人情報<rt>こじんじょうほう</rt></ruby>について、<ruby>正<rt>ただ</rt></ruby>しいものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>がなくても<ruby>友人<rt>ゆうじん</rt></ruby>に<ruby>話<rt>はな</rt></ruby>してよい。",
+        "<ruby>個人情報<rt>こじんじょうほう</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>でも<ruby>自由<rt>じゆう</rt></ruby>に<ruby>見<rt>み</rt></ruby>ることができる。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>を<ruby>得<rt>え</rt></ruby>ずに<ruby>他人<rt>たにん</rt></ruby>へ<ruby>伝<rt>つた</rt></ruby>えてはならない。",
+        "<ruby>退職<rt>たいしょく</rt></ruby>したら<ruby>自由<rt>じゆう</rt></ruby>に<ruby>話<rt>はな</rt></ruby>してよい。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>同意<rt>どうい</rt></ruby>を<ruby>得<rt>え</rt></ruby>ずに<ruby>他人<rt>たにん</rt></ruby>へ<ruby>伝<rt>つた</rt></ruby>えてはならない。"
+},{
+    question:"<ruby>身体拘束<rt>しんたいこうそく</rt></ruby>による<ruby>弊害<rt>へいがい</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>身体機能<rt>しんたいきのう</rt></ruby>の<ruby>向上<rt>こうじょう</rt></ruby>が<ruby>期待<rt>きたい</rt></ruby>できる。",
+        "<ruby>認知症<rt>にんちしょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>が<ruby>改善<rt>かいぜん</rt></ruby>する。",
+        "<ruby>身体機能<rt>しんたいきのう</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>認知症<rt>にんちしょう</rt></ruby>の<ruby>悪化<rt>あっか</rt></ruby>をまねくことがある。",
+        "<ruby>自立<rt>じりつ</rt></ruby>した<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>促進<rt>そくしん</rt></ruby>する。"
+    ],
+    answer:"<ruby>身体機能<rt>しんたいきのう</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>や<ruby>認知症<rt>にんちしょう</rt></ruby>の<ruby>悪化<rt>あっか</rt></ruby>をまねくことがある。"
+},{
+    question:"<ruby>認知症<rt>にんちしょう</rt></ruby>のある<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>居室<rt>きょしつ</rt></ruby>から<ruby>出<rt>で</rt></ruby>ようとしている。<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>対応<rt>たいおう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>部屋<rt>へや</rt></ruby>に<ruby>鍵<rt>かぎ</rt></ruby>をかけて<ruby>閉<rt>と</rt></ruby>じ<ruby>込<rt>こ</rt></ruby>める。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>行動理由<rt>こうどうりゆう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、安全に<ruby>配慮<rt>はいりょ</rt></ruby>しながら<ruby>支援<rt>しえん</rt></ruby>する。",
+        "<ruby>手足<rt>てあし</rt></ruby>をひもで<ruby>固定<rt>こてい</rt></ruby>する。",
+        "<ruby>大声<rt>おおごえ</rt></ruby>で<ruby>叱<rt>しか</rt></ruby>り、その<ruby>場<rt>ば</rt></ruby>に<ruby>座<rt>すわ</rt></ruby>らせる。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>行動理由<rt>こうどうりゆう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>し、安全に<ruby>配慮<rt>はいりょ</rt></ruby>しながら<ruby>支援<rt>しえん</rt></ruby>する。"
+},{
+    question:"<ruby>身体拘束<rt>しんたいこうそく</rt></ruby>が<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>尊厳<rt>そんげん</rt></ruby>に<ruby>与<rt>あた</rt></ruby>える<ruby>影響<rt>えいきょう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>自己決定<rt>じこけってい</rt></ruby>の<ruby>機会<rt>きかい</rt></ruby>を<ruby>増<rt>ふ</rt></ruby>やす。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>自由<rt>じゆう</rt></ruby>を<ruby>制限<rt>せいげん</rt></ruby>し、<ruby>尊厳<rt>そんげん</rt></ruby>を<ruby>損<rt>そこ</rt></ruby>なう。",
+        "<ruby>生活意欲<rt>せいかついよく</rt></ruby>を<ruby>向上<rt>こうじょう</rt></ruby>させる。",
+        "<ruby>社会参加<rt>しゃかいさんか</rt></ruby>を<ruby>促進<rt>そくしん</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>自由<rt>じゆう</rt></ruby>を<ruby>制限<rt>せいげん</rt></ruby>し、<ruby>尊厳<rt>そんげん</rt></ruby>を<ruby>損<rt>そこ</rt></ruby>なう。"
+},
+{
+    question:"<ruby>身体拘束<rt>しんたいこうそく</rt></ruby>をしない<ruby>介護<rt>かいご</rt></ruby>を<ruby>実現<rt>じつげん</rt></ruby>するための<ruby>取組<rt>とりく</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>を<ruby>抑<rt>おさ</rt></ruby>えることを<ruby>優先<rt>ゆうせん</rt></ruby>する。",
+        "<ruby>転倒<rt>てんとう</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>がある<ruby>人<rt>ひと</rt></ruby>を<ruby>常時<rt>じょうじ</rt></ruby><ruby>拘束<rt>こうそく</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>を<ruby>把握<rt>はあく</rt></ruby>し、<ruby>見守<rt>みまも</rt></ruby>りや<ruby>環境調整<rt>かんきょうちょうせい</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>介護者<rt>かいごしゃ</rt></ruby>の<ruby>負担<rt>ふたん</rt></ruby>だけを<ruby>基準<rt>きじゅん</rt></ruby>に<ruby>判断<rt>はんだん</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>状態<rt>じょうたい</rt></ruby>を<ruby>把握<rt>はあく</rt></ruby>し、<ruby>見守<rt>みまも</rt></ruby>りや<ruby>環境調整<rt>かんきょうちょうせい</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。"
+},
+{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>きがないことを<ruby>理由<rt>りゆう</rt></ruby>に、<ruby>精神薬<rt>せいしんやく</rt></ruby>を<ruby>必要以上<rt>ひつよういじょう</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>することについて、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>負担<rt>ふたん</rt></ruby>が<ruby>減<rt>へ</rt></ruby>るので<ruby>望<rt>のぞ</rt></ruby>ましい。",
+        "<ruby>身体拘束<rt>しんたいこうそく</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>する<ruby>可能性<rt>かのうせい</rt></ruby>がある。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>自立<rt>じりつ</rt></ruby>を<ruby>高<rt>たか</rt></ruby>めるため<ruby>推奨<rt>すいしょう</rt></ruby>される。",
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>自由<rt>じゆう</rt></ruby>に<ruby>判断<rt>はんだん</rt></ruby>してよい。"
+    ],
+    answer:"<ruby>身体拘束<rt>しんたいこうそく</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>する<ruby>可能性<rt>かのうせい</rt></ruby>がある。"
+},{
+    question:"<ruby>精神薬<rt>せいしんやく</rt></ruby>を<ruby>過剰<rt>かじょう</rt></ruby>に<ruby>使用<rt>しよう</rt></ruby>した<ruby>場合<rt>ばあい</rt></ruby>の<ruby>影響<rt>えいきょう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>活動量<rt>かつどうりょう</rt></ruby>が<ruby>増加<rt>ぞうか</rt></ruby>し、<ruby>身体機能<rt>しんたいきのう</rt></ruby>が<ruby>向上<rt>こうじょう</rt></ruby>する。",
+        "<ruby>転倒<rt>てんとう</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>や<ruby>身体機能<rt>しんたいきのう</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>につながることがある。",
+        "<ruby>認知機能<rt>にんちきのう</rt></ruby>が<ruby>必<rt>かなら</rt></ruby>ず<ruby>改善<rt>かいぜん</rt></ruby>する。",
+        "<ruby>自発的<rt>じはつてき</rt></ruby>な<ruby>行動<rt>こうどう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える。"
+    ],
+    answer:"<ruby>転倒<rt>てんとう</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>や<ruby>身体機能<rt>しんたいきのう</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>につながることがある。"
+},{
+    question:"<ruby>虐待<rt>ぎゃくたい</rt></ruby>についての<ruby>説明<rt>せつめい</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>人権<rt>じんけん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>る<ruby>行為<rt>こうい</rt></ruby>である。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>自立<rt>じりつ</rt></ruby>を<ruby>促進<rt>そくしん</rt></ruby>するために<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>行為<rt>こうい</rt></ruby>である。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>人権<rt>じんけん</rt></ruby>を<ruby>侵害<rt>しんがい</rt></ruby>する<ruby>行為<rt>こうい</rt></ruby>である。",
+        "<ruby>家族<rt>かぞく</rt></ruby>だけが<ruby>行<rt>おこな</rt></ruby>う<ruby>問題<rt>もんだい</rt></ruby>である。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>人権<rt>じんけん</rt></ruby>を<ruby>侵害<rt>しんがい</rt></ruby>する<ruby>行為<rt>こうい</rt></ruby>である。"
+},{
+    question:"<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>する<ruby>行為<rt>こうい</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>を<ruby>怒鳴<rt>どな</rt></ruby>ったり、<ruby>侮辱<rt>ぶじょく</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>を<ruby>無断<rt>むだん</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>を<ruby>殴<rt>なぐ</rt></ruby>る。",
+        "<ruby>食事<rt>しょくじ</rt></ruby>を<ruby>介助<rt>かいじょ</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>を<ruby>怒鳴<rt>どな</rt></ruby>ったり、<ruby>侮辱<rt>ぶじょく</rt></ruby>する。"
+},{
+    question:"<ruby>介護放棄<rt>かいごほうき</rt></ruby>（ネグレクト）の<ruby>例<rt>れい</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>食事<rt>しょくじ</rt></ruby>や<ruby>介護<rt>かいご</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>せずに<ruby>放置<rt>ほうち</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>と<ruby>会話<rt>かいわ</rt></ruby>しながら<ruby>介助<rt>かいじょ</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>水分<rt>すいぶん</rt></ruby>を<ruby>勧<rt>すす</rt></ruby>める。",
+        "<ruby>生活環境<rt>せいかつかんきょう</rt></ruby>を<ruby>整<rt>ととの</rt></ruby>える。"
+    ],
+    answer:"<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>食事<rt>しょくじ</rt></ruby>や<ruby>介護<rt>かいご</rt></ruby>を<ruby>提供<rt>ていきょう</rt></ruby>せずに<ruby>放置<rt>ほうち</rt></ruby>する。"
+},
+{
+    question:"<ruby>介護職<rt>かいごしょく</rt></ruby>が<ruby>虐待防止<rt>ぎゃくたいぼうし</rt></ruby>のためにとる<ruby>行動<rt>こうどう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>訴<rt>うった</rt></ruby>えを<ruby>無視<rt>むし</rt></ruby>する。",
+        "<ruby>不適切<rt>ふてきせつ</rt></ruby>な<ruby>対応<rt>たいおう</rt></ruby>を<ruby>見<rt>み</rt></ruby>ても<ruby>報告<rt>ほうこく</rt></ruby>しない。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>尊厳<rt>そんげん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>り、<ruby>虐待<rt>ぎゃくたい</rt></ruby>の<ruby>疑<rt>うたが</rt></ruby>いがあれば<ruby>報告<rt>ほうこく</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>行動<rt>こうどう</rt></ruby>を<ruby>制限<rt>せいげん</rt></ruby>して<ruby>管理<rt>かんり</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>尊厳<rt>そんげん</rt></ruby>を<ruby>守<rt>まも</rt></ruby>り、<ruby>虐待<rt>ぎゃくたい</rt></ruby>の<ruby>疑<rt>うたが</rt></ruby>いがあれば<ruby>報告<rt>ほうこく</rt></ruby>する。"
+},
+{
+    question:"<ruby>経済的虐待<rt>けいざいてきぎゃくたい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>する<ruby>行為<rt>こうい</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>財産<rt>ざいさん</rt></ruby>を<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>許可<rt>きょか</rt></ruby>なく<ruby>使用<rt>しよう</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>金銭管理<rt>きんせんかんり</rt></ruby>について<ruby>説明<rt>せつめい</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>預金<rt>よきん</rt></ruby>を<ruby>本人<rt>ほんにん</rt></ruby>と<ruby>確認<rt>かくにん</rt></ruby>する。",
+        "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>を<ruby>支援<rt>しえん</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>財産<rt>ざいさん</rt></ruby>を<ruby>本人<rt>ほんにん</rt></ruby>の<ruby>許可<rt>きょか</rt></ruby>なく<ruby>使用<rt>しよう</rt></ruby>する。"
+},{
+    question:"<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して、「あなたは<ruby>何<rt>なに</rt></ruby>をやってもだめだ」と<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>言<rt>い</rt></ruby>う<ruby>行為<rt>こうい</rt></ruby>は、どの<ruby>虐待<rt>ぎゃくたい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>するか。",
+    choices:[
+        "<ruby>身体的虐待<rt>しんたいてきぎゃくたい</rt></ruby>",
+        "<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>",
+        "<ruby>介護放棄<rt>かいごほうき</rt></ruby>（ネグレクト）",
+        "<ruby>経済的虐待<rt>けいざいてきぎゃくたい</rt></ruby>"
+    ],
+    answer:"<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>"
+},{
+    question:"<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>預金通帳<rt>よきんつうちょう</rt></ruby>を<ruby>預<rt>あず</rt></ruby>かっている<ruby>介護者<rt>かいごしゃ</rt></ruby>が、<ruby>本人<rt>ほんにん</rt></ruby>に<ruby>無断<rt>むだん</rt></ruby>で<ruby>現金<rt>げんきん</rt></ruby>を<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>した。この<ruby>行為<rt>こうい</rt></ruby>はどの<ruby>虐待<rt>ぎゃくたい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>するか。",
+    choices:[
+        "<ruby>経済的虐待<rt>けいざいてきぎゃくたい</rt></ruby>",
+        "<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>",
+        "<ruby>身体的虐待<rt>しんたいてきぎゃくたい</rt></ruby>",
+        "<ruby>介護放棄<rt>かいごほうき</rt></ruby>（ネグレクト）"
+    ],
+    answer:"<ruby>経済的虐待<rt>けいざいてきぎゃくたい</rt></ruby>"
+},{
+    question:"<ruby>利用者<rt>りようしゃ</rt></ruby>に<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>水分補給<rt>すいぶんほきゅう</rt></ruby>や<ruby>食事介助<rt>しょくじかいじょ</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>わず、<ruby>長時間<rt>ちょうじかん</rt></ruby><ruby>放置<rt>ほうち</rt></ruby>した。この<ruby>行為<rt>こうい</rt></ruby>はどの<ruby>虐待<rt>ぎゃくたい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>するか。",
+    choices:[
+        "<ruby>身体的虐待<rt>しんたいてきぎゃくたい</rt></ruby>",
+        "<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>",
+        "<ruby>介護放棄<rt>かいごほうき</rt></ruby>（ネグレクト）",
+        "<ruby>経済的虐待<rt>けいざいてきぎゃくたい</rt></ruby>"
+    ],
+    answer:"<ruby>介護放棄<rt>かいごほうき</rt></ruby>（ネグレクト）"
+},
+{
+    question:"<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>失敗<rt>しっぱい</rt></ruby>したことを、ほかの<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>で<ruby>繰<rt>く</rt></ruby>り<ruby>返<rt>かえ</rt></ruby>し<ruby>非難<rt>ひなん</rt></ruby>した。この<ruby>行為<rt>こうい</rt></ruby>はどの<ruby>虐待<rt>ぎゃくたい</rt></ruby>に<ruby>該当<rt>がいとう</rt></ruby>するか。",
+    choices:[
+        "<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>",
+        "<ruby>身体的虐待<rt>しんたいてきぎゃくたい</rt></ruby>",
+        "<ruby>経済的虐待<rt>けいざいてきぎゃくたい</rt></ruby>",
+        "<ruby>性的虐待<rt>せいてきぎゃくたい</rt></ruby>"
+    ],
+    answer:"<ruby>心理的虐待<rt>しんりてきぎゃくたい</rt></ruby>"
+},{
+    question:"<ruby>チームアプローチ<rt>ちーむあぷろーち</rt></ruby>の<ruby>説明<rt>せつめい</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>だけで<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>支援<rt>しえん</rt></ruby>すること。",
+        "<ruby>各職種<rt>かくしょくしゅ</rt></ruby>がそれぞれの<ruby>専門性<rt>せんもんせい</rt></ruby>を<ruby>活<rt>い</rt></ruby>かしながら、<ruby>利用者<rt>りようしゃ</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>連携<rt>れんけい</rt></ruby>すること。",
+        "<ruby>医師<rt>いし</rt></ruby>だけが<ruby>支援方針<rt>しえんほうしん</rt></ruby>を<ruby>決定<rt>けってい</rt></ruby>すること。",
+        "<ruby>専門職同士<rt>せんもんしょくどうし</rt></ruby>が<ruby>情報共有<rt>じょうほうきょうゆう</rt></ruby>をしないこと。"
+    ],
+    answer:"<ruby>各職種<rt>かくしょくしゅ</rt></ruby>がそれぞれの<ruby>専門性<rt>せんもんせい</rt></ruby>を<ruby>活<rt>い</rt></ruby>かしながら、<ruby>利用者<rt>りようしゃ</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>連携<rt>れんけい</rt></ruby>すること。"
+},{
+    question:"<ruby>言語聴覚士<rt>げんごちょうかくし</rt></ruby>（ST）の<ruby>専門的<rt>せんもんてき</rt></ruby>な<ruby>支援<rt>しえん</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>栄養状態<rt>えいようじょうたい</rt></ruby>の<ruby>管理<rt>かんり</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>歩行訓練<rt>ほこうくんれん</rt></ruby>や<ruby>関節運動<rt>かんせつうんどう</rt></ruby>を<ruby>中心<rt>ちゅうしん</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>言葉<rt>ことば</rt></ruby>によるコミュニケーションや<ruby>嚥下<rt>えんげ</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わる<ruby>支援<rt>しえん</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>介護保険<rt>かいごほけん</rt></ruby>サービスの<ruby>調整<rt>ちょうせい</rt></ruby>を<ruby>主<rt>おも</rt></ruby>に<ruby>担当<rt>たんとう</rt></ruby>する。"
+    ],
+    answer:"<ruby>言葉<rt>ことば</rt></ruby>によるコミュニケーションや<ruby>嚥下<rt>えんげ</rt></ruby>に<ruby>関<rt>かか</rt></ruby>わる<ruby>支援<rt>しえん</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う。"
+},{
+    question:"<ruby>介護支援専門員<rt>かいごしえんせんもんいん</rt></ruby>（ケアマネジャー）の<ruby>役割<rt>やくわり</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>リハビリテーション<rt>りはびりてーしょん</rt></ruby>のみを<ruby>担当<rt>たんとう</rt></ruby>する。",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>や<ruby>家族<rt>かぞく</rt></ruby>の<ruby>状況<rt>じょうきょう</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じてケアプランを<ruby>作成<rt>さくせい</rt></ruby>し、<ruby>多職種<rt>たしょくしゅ</rt></ruby>との<ruby>連携<rt>れんけい</rt></ruby>を<ruby>図<rt>はか</rt></ruby>る。",
+        "<ruby>医療行為<rt>いりょうこうい</rt></ruby>を<ruby>専門<rt>せんもん</rt></ruby>に<ruby>行<rt>おこな</rt></ruby>う。",
+        "<ruby>給食<rt>きゅうしょく</rt></ruby>の<ruby>献立<rt>こんだて</rt></ruby>を<ruby>作成<rt>さくせい</rt></ruby>する。"
+    ],
+    answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>や<ruby>家族<rt>かぞく</rt></ruby>の<ruby>状況<rt>じょうきょう</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じてケアプランを<ruby>作成<rt>さくせい</rt></ruby>し、<ruby>多職種<rt>たしょくしゅ</rt></ruby>との<ruby>連携<rt>れんけい</rt></ruby>を<ruby>図<rt>はか</rt></ruby>る。"
+},
 ];

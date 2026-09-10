@@ -690,6 +690,15 @@ text-shadow:
         <ruby>閉<rt>と</rt></ruby>じる
     </button>
 </div>
+<p>
+
+★実技問題は、Chromeなどの翻訳機能を使って、受験する言語にサイトを翻訳してからご利用ください。<br>
+実際の実技評価試験に近い形式のクイズで練習できます。<br>
+★ Practical Skills Assessment Test Preparation<br>
+For the Practical Skills Assessment Test, please use your browser's translation feature, such as Google Chrome Translate, to translate this website into your exam language before use.<br>
+You can practice with quizzes designed to closely match the actual test format.
+
+</p>
     <h2>セットを<ruby>選<rt>えら</rt></ruby>んでください</h2>
 <br>
 <button onclick="startQuizData1()">
@@ -701,13 +710,12 @@ text-shadow:
 </button>
 <br>
 <h2>TEST</h2>
-<br>
-<button onclick="startTest1()">
-📖 <ruby>日本語<rt>にほんご</rt></ruby>TEST30
+<br><button onclick="startTest1()">
+📖 <ruby>日本語<rt>にほんご</rt></ruby>TEST15
 </button>
 
 <button onclick="startTest2()">
-🩺 <ruby>実技<rt>じつぎ</rt></ruby>TEST30
+🩺 <ruby>実技<rt>じつぎ</rt></ruby>TEST45
 </button>
 <br>
 <h2><ruby>問題一覧<rt>もんだいいちらん</rt></ruby></h2>
@@ -756,13 +764,13 @@ function showQuestionList2(){
     showQuestionList();
 }
 function startTest1(){
-    allQuizData = [...QuizData1];
-    startQuiz(5);
+allQuizData = [...QuizData1];
+startQuiz(15);
 }
 
 function startTest2(){
     allQuizData = [...QuizData2];
-    startQuiz(5);
+startQuiz(45);
 }
 
 function makeChoices(correct){
@@ -888,7 +896,7 @@ if(set === 1){
         [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
     }
 
-}else if(set === 5){
+}else if(set >= 10){
 
     quizData = [...allQuizData];
 
@@ -897,7 +905,7 @@ if(set === 1){
         [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
     }
 
-    quizData = quizData.slice(0,30);
+    quizData = quizData.slice(0,set);
 }
 
 
@@ -994,12 +1002,16 @@ showCorrectEffect();
 
    miss++;
 
+if(!wrongQuestions[currentSet]){
+    wrongQuestions[currentSet] = [];
+}
+
 wrongQuestions[currentSet].push(q);
 
 document.getElementById("result")
 .innerHTML =
 "× 不正解！ 正解は「" + q.answer + "」";
-            }
+}
 
             document.getElementById("score")
                 .textContent = score;
@@ -1089,12 +1101,13 @@ function nextQuestion(){
         }
 
 // ランダム30問は復習なし
-if(currentSet == 5){
+if(currentSet >= 10){
 
     document.getElementById("choices").innerHTML = "";
     document.getElementById("result").innerHTML =
         "🏆 テスト30問終了！<br>" +
-        "30点中 " + score + " 点でした。";
+        quizData.length + "点中 " + score + " 点でした。"
+
 
     document.getElementById("next").style.display = "none";
     document.getElementById("nextSet").style.display = "none";
