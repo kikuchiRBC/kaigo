@@ -3,11 +3,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
-<title>特定技能ビルクリーニング試験対策｜無料問題集【ふりがな付き】</title>
+<title>特定技能介護（かいご）｜無料問題集【ふりがな付き】</title>
 <meta name="description"
-content="特定技能ビルクリーニング分野の試験対策サイトです。やさしい日本語で清掃用具、作業手順、安全衛生、ホテル清掃を学習できます。外国人向け無料クイズ。">
+content="特定技能介護分野の試験対策サイトです。やさしい日本語で清掃用具、作業手順、安全衛生、ホテル清掃を学習できます。外国人向け無料クイズ。">
 <meta name="keywords"
 content="
+介護,
+kaigo,
 特定技能,
 ビルクリーニング,
 外国人,
@@ -69,7 +71,7 @@ Hotel Cleaning
 
 rt{
     font-size:0.6em;
-    color:rgb(255, 255, 255);
+    color:rgb(249, 249, 249);
     font-weight:bold;
 }
 
@@ -99,8 +101,8 @@ rt{
 
 
 /* 波線の色 */
-.animated-wave path {
-  fill: #00bcd4;
+.animated-wave path{
+    fill:#c8e6c9;
 }
 
 
@@ -129,7 +131,7 @@ rt{
       button {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  background: linear-gradient(135deg, #2bff00, #ddff00);
   color: #fff;
   border: none;
   padding: 12px 28px;
@@ -188,7 +190,7 @@ button:hover{
 /* タイトル */
 h1{ border:none;
     border-radius:12px;
-    background:linear-gradient(45deg,#87ebff,#69dce9);
+    background:linear-gradient(45deg,#81c784,#66bb6a);
     color:white;
     font-size:2.5rem;
     text-shadow:2px 2px 5px rgba(0,0,0,0.3);
@@ -203,24 +205,46 @@ h2 {
   padding: 15px 25px;
   margin: 15px 0;
 
-  color: #ffffff;
+  color: #6c6c6c;
   font-size: 26px;
   font-weight: bold;
 
-  background: rgba(0, 140, 255, 0.25);
-  border: 2px solid rgba(255,255,255,0.3);
+  background: rgba(129,199,132,0.2);
+  border: 2px solid #81c784;
   border-radius: 20px;
 
 
   box-shadow:
     0 0 15px rgba(0,195,255,0.5),
-    inset 0 0 15px rgba(255,255,255,0.1);
+    inset 0 0 15px rgba(129,199,132,0.3);
 
   text-shadow:
     0 0 5px rgba(255,255,255,0.8),
     0 0 10px #00c6ff;
 }
+.fall-item{
+    position:fixed;
+    top:-50px;
+    pointer-events:none;
+    z-index:5;
+    animation:fallFlower linear forwards;
+}
 
+@keyframes fallFlower{
+    0%{
+        transform:translateY(0) rotate(0deg);
+        opacity:1;
+    }
+
+    100%{
+        transform:
+            translateY(calc(100vh + 100px))
+            translateX(100px)
+            rotate(360deg);
+
+        opacity:0;
+    }
+}
 /* 問題文がふわふわ */
 h2 {
   animation: floatQuestion 3s ease-in-out infinite;
@@ -239,7 +263,6 @@ h2 {
 }
 
 img {
-  width: px;
   margin: 10px;
   transition: 0.3s;
 }
@@ -260,7 +283,13 @@ body {
  text-align:center;
     font-family:sans-serif;
 
-    background-image:url("images/clean.jpg");
+        background:
+    linear-gradient(
+        to bottom,
+        #f8ffef 0%,
+        #eaf7ff 50%,
+        #fff8e6 100%
+    );
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -364,7 +393,7 @@ z-index:5;
     line-height:2;
     font-weight:bold;
 
-    color:#003366;
+    color:#3283d4;
 }
 
 
@@ -394,7 +423,8 @@ z-index:5;
     width:600px;
     max-width:90%;
     margin:30px auto;
-    background:rgba(41, 230, 255, 0.95);
+    background:rgba(198, 227, 143, 0.95);
+    border:4px solid #81c784;
     border-radius:25px;
     padding:30px;
     box-shadow:0 10px 30px rgba(0,0,0,0.25);
@@ -488,7 +518,7 @@ button{
     font-weight:bold;
     border:none;
     border-radius:12px;
-    background:linear-gradient(45deg,#126798,#729aff);
+    background:linear-gradient(45deg,#81c784,#a5d6a7);
     color:whitesmoke;
     cursor:pointer;
     transition:all .3s ease;
@@ -615,14 +645,14 @@ text-shadow:
 </section>
 
 <div class="bubble-background"></div>
-    <h1>特定技能ビルクリーニング試験対策【無料問題集】</h1>
+    <h1>特定技能介護試験対策【無料問題集】</h1>
 <div class="intro-box">
 <p id="introText">
-🌏 外国人向けの特定技能ビルクリーニング試験対策サイトです。
+🌏 外国人向けの特定技能介護試験対策サイトです。
 <br>
 📚 ふりがな付きのやさしい日本語で学習できます。
 <br>
-🧹 清掃用具・安全衛生・ホテル清掃・ベッドメイキングを無料で勉強できます。
+介護を無料で勉強できます。
 <br>
 🌏 This website helps foreign residents prepare for the Specified Skilled Worker (SSW) Building Cleaning Skills Test.
 <br>
@@ -660,20 +690,44 @@ text-shadow:
         <ruby>閉<rt>と</rt></ruby>じる
     </button>
 </div>
+<p>
+
+★実技問題は、Chromeなどの翻訳機能を使って、受験する言語にサイトを翻訳してからご利用ください。<br>
+実際の実技評価試験に近い形式のクイズで練習できます。<br>
+★ Practical Skills Assessment Test Preparation<br>
+For the Practical Skills Assessment Test, please use your browser's translation feature, such as Google Chrome Translate, to translate this website into your exam language before use.<br>
+You can practice with quizzes designed to closely match the actual test format.
+
+</p>
     <h2>セットを<ruby>選<rt>えら</rt></ruby>んでください</h2>
 <br>
-    <button id="start40" onclick="startQuiz(1)">
-        <ruby>全問<rt>ぜんもん</rt></ruby>スタート
-    </button>
-
-    <button id="test30" class="random-btn" onclick="startQuiz(5)">
-        TEST✏30<ruby>問<rt>もん</rt></ruby>
-    </button>
-    <button onclick="showQuestionList()">
-
-📚 <ruby>問題一覧<rt>もんだいいちらん</rt></ruby>（こたえあり）
-
+<button onclick="startQuizData1()">
+📖  <ruby>日本語問題<rt>にほんごもんだい</rt></ruby>
 </button>
+
+<button onclick="startQuizData2()">
+🩺 <ruby>実技問題<rt>じつぎもんだい</rt></ruby>
+</button>
+<br>
+<h2>TEST</h2>
+<br><button onclick="startTest1()">
+📖 <ruby>日本語<rt>にほんご</rt></ruby>TEST15
+</button>
+
+<button onclick="startTest2()">
+🩺 <ruby>実技<rt>じつぎ</rt></ruby>TEST45
+</button>
+<br>
+<h2><ruby>問題一覧<rt>もんだいいちらん</rt></ruby></h2>
+<br>
+<button onclick="showQuestionList1()">
+📚 <ruby>日本語問題一覧<rt>にほんごもんだいいちらん</rt></ruby>
+</button>
+
+<button onclick="showQuestionList2()">
+📚 <ruby>実技問題一覧<rt>じつぎもんだいいちらん</rt></ruby>
+</button>
+
 </div>
 
 <div id="quiz" style="display:none;">
@@ -693,20 +747,49 @@ text-shadow:
 </div></div></div>
 
 </section>
-<script src="js/QuizData.js"></script>
+<script src="js/QuizData1.js"></script>
+<script src="js/QuizData2.js"></script>
 <script>
-    
+    let allQuizData = [
+    ...QuizData1,
+    ...QuizData2
+];
+function showQuestionList1(){
+    allQuizData = [...QuizData1];
+    showQuestionList();
+}
+
+function showQuestionList2(){
+    allQuizData = [...QuizData2];
+    showQuestionList();
+}
+function startTest1(){
+allQuizData = [...QuizData1];
+startQuiz(15);
+}
+
+function startTest2(){
+    allQuizData = [...QuizData2];
+startQuiz(45);
+}
 
 function makeChoices(correct){
+
+    if(imageQuizData.length < 4){
+        return [correct.answer];
+    }
 
     let choices = [correct.answer];
 
     while(choices.length < 4){
 
         let random =
-            imageQuizData[Math.floor(
-                Math.random() * imageQuizData.length
-            )].answer;
+            imageQuizData[
+                Math.floor(
+                    Math.random() *
+                    imageQuizData.length
+                )
+            ].answer;
 
         if(!choices.includes(random)){
             choices.push(random);
@@ -720,19 +803,15 @@ function makeChoices(correct){
 let score = 0;
 let miss = 0;
 
-const imageQuizData =
-    allQuizData.filter(q =>
-        q.image &&
-        !["1","2","3","4","A","B","C","D","PH0","PH3","PH4","PH6","PH8","PH14"]
-            .includes(q.answer)
-    );
+
+
+let imageQuizData = [];
 
 
 let quizSet1 = allQuizData.slice(0, 50);
 let quizSet2 = allQuizData.slice(50);
 
 let quizData = [];
-
 
 
 
@@ -748,15 +827,55 @@ let wrongQuestions = {
     5: []
 };
 let reviewMode = false;
+const symbols = ["🌸", "🍀"];
 
+function createFlower() {
+
+    const item = document.createElement("div");
+    item.className = "fall-item";
+
+    item.innerHTML =
+        symbols[Math.floor(Math.random() * symbols.length)];
+
+    item.style.left = Math.random() * 100 + "vw";
+
+    const size = 20 + Math.random() * 40;
+
+    item.style.fontSize = size + "px";
+
+    item.style.animationDuration =
+        (8 + Math.random() * 6) + "s";
+
+    document.body.appendChild(item);
+
+    setTimeout(() => {
+        item.remove();
+    }, 15000);
+}
+
+setInterval(createFlower, 500);
+function startQuizData1(){
+
+    allQuizData = [...QuizData1];
+
+    startQuiz(1);
+}
+
+function startQuizData2(){
+
+    allQuizData = [...QuizData2];
+
+    startQuiz(1);
+}
 function startQuiz(set){
+    imageQuizData = allQuizData.filter(q =>
+q.image &&
+!["1","2","3","4","A","B","C","D"]
+.includes(q.answer)
+);
     document.getElementById("introText").style.display = "none";
     score = 0;
     miss = 0;
-
-    document.getElementById("start40").style.display = "none";
-    document.getElementById("test30").style.display = "none";
-
 
 
 document.getElementById("score").textContent = score;
@@ -777,7 +896,7 @@ if(set === 1){
         [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
     }
 
-}else if(set === 5){
+}else if(set >= 10){
 
     quizData = [...allQuizData];
 
@@ -786,7 +905,7 @@ if(set === 1){
         [quizData[i], quizData[j]] = [quizData[j], quizData[i]];
     }
 
-    quizData = quizData.slice(0,30);
+    quizData = quizData.slice(0,set);
 }
 
 
@@ -800,8 +919,6 @@ function shuffle(array) {
 }
 function goHome(){
 document.getElementById("introText").style.display = "block";
-    document.getElementById("start40").style.display = "inline-block";
-    document.getElementById("test30").style.display = "inline-block";
 
 
     document.getElementById("quiz").style.display = "none";
@@ -833,17 +950,19 @@ const q = quizData[current];
 if(q.image){
 
     document.getElementById("toolImage").style.display = "block";
-    document.getElementById("questionText").style.display = "none";
-
     document.getElementById("toolImage").src = q.image;
+
+    document.getElementById("questionText").style.display = "block";
+    document.getElementById("questionText").innerHTML =
+        q.question || "";
 
 }else{
 
     document.getElementById("toolImage").style.display = "none";
-    document.getElementById("questionText").style.display = "block";
 
+    document.getElementById("questionText").style.display = "block";
     document.getElementById("questionText").innerHTML =
-        q.question;
+        q.question || "";
 }
 
 
@@ -881,13 +1000,18 @@ const choices = q.choices
 showCorrectEffect();
             }else{
 
-                miss++;
+   miss++;
 
-                document.getElementById("result")
-                    .innerHTML =
-                    "× 不正解！ 正解は「" +
-                    q.answer + "」";
-            }
+if(!wrongQuestions[currentSet]){
+    wrongQuestions[currentSet] = [];
+}
+
+wrongQuestions[currentSet].push(q);
+
+document.getElementById("result")
+.innerHTML =
+"× 不正解！ 正解は「" + q.answer + "」";
+}
 
             document.getElementById("score")
                 .textContent = score;
@@ -977,12 +1101,13 @@ function nextQuestion(){
         }
 
 // ランダム30問は復習なし
-if(currentSet == 5){
+if(currentSet >= 10){
 
     document.getElementById("choices").innerHTML = "";
     document.getElementById("result").innerHTML =
         "🏆 テスト30問終了！<br>" +
-        "30点中 " + score + " 点でした。";
+        quizData.length + "点中 " + score + " 点でした。"
+
 
     document.getElementById("next").style.display = "none";
     document.getElementById("nextSet").style.display = "none";
@@ -1109,11 +1234,11 @@ allQuizData.forEach((q,index)=>{
 });
 
 html += `
-    <butto←
-        class="floating-close-btn"
-        onclick="closeQuestionList()">
-        ← もどる
-    </button>
+<button
+    class="floating-close-btn"
+    onclick="closeQuestionList()">
+    ← もどる
+</button>
 </div>
 `;
 

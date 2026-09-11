@@ -897,4 +897,240 @@ choices:[
     ],
     answer:"<ruby>利用者<rt>りようしゃ</rt></ruby>や<ruby>家族<rt>かぞく</rt></ruby>の<ruby>状況<rt>じょうきょう</rt></ruby>に<ruby>応<rt>おう</rt></ruby>じてケアプランを<ruby>作成<rt>さくせい</rt></ruby>し、<ruby>多職種<rt>たしょくしゅ</rt></ruby>との<ruby>連携<rt>れんけい</rt></ruby>を<ruby>図<rt>はか</rt></ruby>る。"
 },
+{
+    question:"自分が生まれ育った&lt;ruby&gt;家族&lt;rt&gt;かぞく&lt;/rt&gt;&lt;/ruby&gt;のことを何というか。",
+    choices:[
+        "&lt;ruby&gt;核家族&lt;rt&gt;かくかぞく&lt;/rt&gt;&lt;/ruby&gt;",
+        "&lt;ruby&gt;拡大家族&lt;rt&gt;かくだいかぞく&lt;/rt&gt;&lt;/ruby&gt;",
+        "&lt;ruby&gt;定位家族&lt;rt&gt;ていいかぞく&lt;/rt&gt;&lt;/ruby&gt;",
+        "&lt;ruby&gt;生殖家族&lt;rt&gt;せいしょくかぞく&lt;/rt&gt;&lt;/ruby&gt;"
+    ],
+    answer:"&lt;ruby&gt;定位家族&lt;rt&gt;ていいかぞく&lt;/rt&gt;&lt;/ruby&gt;"
+},
+{
+    question:"<ruby>肢体不自由<rt>したいふじゆう</rt></ruby>について、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>手<rt>て</rt></ruby>に<ruby>障害<rt>しょうがい</rt></ruby>を<ruby>受<rt>う</rt></ruby>け、<ruby>日常生活<rt>にちじょうせいかつ</rt></ruby>に<ruby>困難<rt>こんなん</rt></ruby>が<ruby>伴<rt>ともな</rt></ruby>う<ruby>状態<rt>じょうたい</rt></ruby>",
+        "<ruby>体幹<rt>たいかん</rt></ruby>に<ruby>障害<rt>しょうがい</rt></ruby>を<ruby>受<rt>う</rt></ruby>け、<ruby>日常生活<rt>にちじょうせいかつ</rt></ruby>に<ruby>困難<rt>こんなん</rt></ruby>が<ruby>伴<rt>ともな</rt></ruby>う<ruby>状態<rt>じょうたい</rt></ruby>",
+        "<ruby>足<rt>あし</rt></ruby>に<ruby>障害<rt>しょうがい</rt></ruby>を<ruby>受<rt>う</rt></ruby>け、<ruby>日常生活<rt>にちじょうせいかつ</rt></ruby>に<ruby>困難<rt>こんなん</rt></ruby>が<ruby>伴<rt>ともな</rt></ruby>う<ruby>状態<rt>じょうたい</rt></ruby>",
+        "<ruby>目<rt>め</rt></ruby>に<ruby>障害<rt>しょうがい</rt></ruby>を<ruby>受<rt>う</rt></ruby>け、<ruby>日常生活<rt>にちじょうせいかつ</rt></ruby>に<ruby>困難<rt>こんなん</rt></ruby>が<ruby>伴<rt>ともな</rt></ruby>う<ruby>状態<rt>じょうたい</rt></ruby>"
+    ],
+    answer:"<ruby>目<rt>め</rt></ruby>に<ruby>障害<rt>しょうがい</rt></ruby>を<ruby>受<rt>う</rt></ruby>け、<ruby>日常生活<rt>にちじょうせいかつ</rt></ruby>に<ruby>困難<rt>こんなん</rt></ruby>が<ruby>伴<rt>ともな</rt></ruby>う<ruby>状態<rt>じょうたい</rt></ruby>"
+},
+{
+    question:"<ruby>安全性<rt>あんぜんせい</rt></ruby>の<ruby>確保<rt>かくほ</rt></ruby>のため、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>介護職<rt>かいごしょく</rt></ruby>の<ruby>健康管理<rt>けんこうかんり</rt></ruby>",
+        "<ruby>事故防止<rt>じこぼうし</rt></ruby>",
+        "<ruby>時間厳守<rt>じかんげんしゅ</rt></ruby>",
+        "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>観察<rt>かんさつ</rt></ruby>"
+    ],
+    answer:"<ruby>時間厳守<rt>じかんげんしゅ</rt></ruby>"
+},
+{
+    question:"<ruby>糖尿病<rt>とうにょうびょう</rt></ruby>の<ruby>症状<rt>しょうじょう</rt></ruby>として、もっとも<ruby>適切<rt>てきせつ</rt></ruby>なものを1つ<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>多尿<rt>たにょう</rt></ruby>（おしっこの<ruby>量<rt>りょう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える）",
+        "<ruby>難聴<rt>なんちょう</rt></ruby>",
+        "<ruby>骨折<rt>こっせつ</rt></ruby>",
+        "<ruby>脱毛<rt>だつもう</rt></ruby>"
+    ],
+    answer:"<ruby>多尿<rt>たにょう</rt></ruby>（おしっこの<ruby>量<rt>りょう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>える）"
+},{
+    question:"<ruby>高齢者<rt>こうれいしゃ</rt></ruby>の<ruby>糖尿病<rt>とうにょうびょう</rt></ruby>に<ruby>多<rt>おお</rt></ruby>い<ruby>原因<rt>げんいん</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>インスリン<rt>いんすりん</rt></ruby><ruby>分泌<rt>ぶんぴつ</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>",
+        "<ruby>発汗<rt>はっかん</rt></ruby>",
+        "<ruby>風邪<rt>かぜ</rt></ruby>",
+        "<ruby>頭痛<rt>ずつう</rt></ruby>"
+    ],
+    answer:"<ruby>インスリン<rt>いんすりん</rt></ruby><ruby>分泌<rt>ぶんぴつ</rt></ruby>の<ruby>低下<rt>ていか</rt></ruby>"
+},
+{
+    question:"<ruby>老化<rt>ろうか</rt></ruby>によるこころの<ruby>変化<rt>へんか</rt></ruby>について、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>不安感<rt>ふあんかん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>く",
+        "<ruby>無力感<rt>むりょくかん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>く",
+        "<ruby>焦燥感<rt>しょうそうかん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>く",
+        "<ruby>高揚感<rt>こうようかん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>く"
+    ],
+    answer:"<ruby>高揚感<rt>こうようかん</rt></ruby>を<ruby>抱<rt>いだ</rt></ruby>く"
+},
+{
+    question:"<ruby>消化器系<rt>しょうかきけい</rt></ruby>について、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>食物<rt>しょくもつ</rt></ruby>の<ruby>消化<rt>しょうか</rt></ruby>を<ruby>行<rt>おこな</rt></ruby>う",
+        "<ruby>栄養素<rt>えいようそ</rt></ruby>を<ruby>吸収<rt>きゅうしゅう</rt></ruby>する",
+        "<ruby>血液<rt>けつえき</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>する",
+        "<ruby>便<rt>べん</rt></ruby>を<ruby>排出<rt>はいしゅつ</rt></ruby>する"
+    ],
+    answer:"<ruby>血液<rt>けつえき</rt></ruby>を<ruby>掃除<rt>そうじ</rt></ruby>する"
+},
+{
+    question:"<ruby>中枢神経<rt>ちゅうすうしんけい</rt></ruby>の<ruby>役割<rt>やくわり</rt></ruby>として、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>脳<rt>のう</rt></ruby>は<ruby>神経<rt>しんけい</rt></ruby>ではない",
+        "<ruby>脳<rt>のう</rt></ruby>は<ruby>全身<rt>ぜんしん</rt></ruby>からの<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めている",
+        "<ruby>脊髄<rt>せきずい</rt></ruby>は<ruby>脳<rt>のう</rt></ruby>につながっている",
+        "<ruby>脊髄<rt>せきずい</rt></ruby>は<ruby>全身<rt>ぜんしん</rt></ruby>と<ruby>脳<rt>のう</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>中継<rt>ちゅうけい</rt></ruby>する"
+    ],
+    answer:"<ruby>脳<rt>のう</rt></ruby>は<ruby>神経<rt>しんけい</rt></ruby>ではない"
+},
+{
+    question:"<ruby>手洗<rt>てあら</rt></ruby>いする<ruby>部位<rt>ぶい</rt></ruby>として、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>手<rt>て</rt></ruby>のひら",
+        "<ruby>手<rt>て</rt></ruby>の<ruby>甲<rt>こう</rt></ruby>",
+        "<ruby>手首<rt>てくび</rt></ruby>",
+        "<ruby>腕<rt>うで</rt></ruby>"
+    ],
+    answer:"<ruby>腕<rt>うで</rt></ruby>"
+},
+{
+    question:"<ruby>妄想<rt>もうそう</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>現実<rt>げんじつ</rt></ruby>に<ruby>起<rt>お</rt></ruby>こったことを<ruby>忘<rt>わす</rt></ruby>れる",
+        "<ruby>現実<rt>げんじつ</rt></ruby>ではないことを、あることのように<ruby>感<rt>かん</rt></ruby>じる",
+        "<ruby>寝<rt>ね</rt></ruby>ているあいだに<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>見<rt>み</rt></ruby>る",
+        "<ruby>寝<rt>ね</rt></ruby>ているあいだに<ruby>見<rt>み</rt></ruby>た<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えて<ruby>言<rt>い</rt></ruby>える"
+    ],
+    answer:"<ruby>現実<rt>げんじつ</rt></ruby>ではないことを、あることのように<ruby>感<rt>かん</rt></ruby>じる"
+},{
+    question:"<ruby>マスク</ruby>の<ruby>着用方法<rt>ちゃくようほうほう</rt></ruby>として、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>鼻<rt>はな</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す",
+        "あごをおおう",
+        "<ruby>目<rt>め</rt></ruby>をおおう",
+        "<ruby>耳<rt>みみ</rt></ruby>をおおう"
+    ],
+    answer:"あごをおおう"
+},
+{
+    question:"<ruby>人工透析<rt>じんこうとうせき</rt></ruby>をした<ruby>日<rt>ひ</rt></ruby>に<ruby>避<rt>さ</rt></ruby>けるべき<ruby>行為<rt>こうい</rt></ruby>について、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>食事<rt>しょくじ</rt></ruby>",
+        "<ruby>入浴<rt>にゅうよく</rt></ruby>",
+        "<ruby>外出<rt>がいしゅつ</rt></ruby>",
+        "<ruby>睡眠<rt>すいみん</rt></ruby>"
+    ],
+    answer:"<ruby>入浴<rt>にゅうよく</rt></ruby>"
+},
+{
+    question:"<ruby>記憶<rt>きおく</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>間違<rt>まちが</rt></ruby>っているかもしれないので、<ruby>気<rt>き</rt></ruby>にしない",
+        "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>は<ruby>記憶<rt>きおく</rt></ruby>ではない",
+        "<ruby>意識<rt>いしき</rt></ruby>しないと<ruby>記憶<rt>きおく</rt></ruby>できない",
+        "からだで<ruby>覚<rt>おぼ</rt></ruby>えていることがある"
+    ],
+    answer:"からだで<ruby>覚<rt>おぼ</rt></ruby>えていることがある"
+},
+{
+    question:"<ruby>心臓<rt>しんぞう</rt></ruby>について、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "2つの<ruby>部屋<rt>へや</rt></ruby>に<ruby>分<rt>わ</rt></ruby>かれている",
+        "<ruby>血液<rt>けつえき</rt></ruby>を<ruby>押<rt>お</rt></ruby>し<ruby>出<rt>だ</rt></ruby>している",
+        "ポンプの<ruby>役目<rt>やくめ</rt></ruby>を<ruby>果<rt>は</rt></ruby>たしている",
+        "<ruby>肺循環<rt>はいじゅんかん</rt></ruby>の<ruby>一部<rt>いちぶ</rt></ruby>である"
+    ],
+    answer:"2つの<ruby>部屋<rt>へや</rt></ruby>に<ruby>分<rt>わ</rt></ruby>かれている"
+},
+{
+    question:"<ruby>記憶<rt>きおく</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>間違<rt>まちが</rt></ruby>っているかもしれないので、<ruby>気<rt>き</rt></ruby>にしない",
+        "<ruby>思<rt>おも</rt></ruby>い<ruby>出<rt>で</rt></ruby>は<ruby>記憶<rt>きおく</rt></ruby>ではない",
+        "<ruby>意識<rt>いしき</rt></ruby>しないと<ruby>記憶<rt>きおく</rt></ruby>できない",
+        "からだで<ruby>覚<rt>おぼ</rt></ruby>えていることがある"
+    ],
+    answer:"からだで<ruby>覚<rt>おぼ</rt></ruby>えていることがある"
+},
+{
+    question:"<ruby>体温<rt>たいおん</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "1<ruby>日中<rt>にちじゅう</rt></ruby><ruby>変<rt>か</rt></ruby>わらない",
+        "<ruby>日中<rt>にっちゅう</rt></ruby>は<ruby>下<rt>さ</rt></ruby>がる",
+        "<ruby>夜<rt>よる</rt></ruby>は<ruby>下<rt>さ</rt></ruby>がる",
+        "<ruby>平熱<rt>へいねつ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じである"
+    ],
+    answer:"<ruby>夜<rt>よる</rt></ruby>は<ruby>下<rt>さ</rt></ruby>がる"
+},
+{
+    question:"<ruby>認知症<rt>にんちしょう</rt></ruby>の<ruby>行動症状<rt>こうどうしょうじょう</rt></ruby>として、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>徘徊<rt>はいかい</rt></ruby>する",
+        "<ruby>運動<rt>うんどう</rt></ruby>する",
+        "<ruby>寝転<rt>ねころ</rt></ruby>がる",
+        "<ruby>走<rt>はし</rt></ruby>る"
+    ],
+    answer:"<ruby>徘徊<rt>はいかい</rt></ruby>する"
+},
+{
+    question:"<ruby>防災対策<rt>ぼうさいたいさく</rt></ruby>として、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>必要<rt>ひつよう</rt></ruby>な<ruby>物品<rt>ぶっぴん</rt></ruby>を<ruby>用意<rt>ようい</rt></ruby>する",
+        "<ruby>防災訓練<rt>ぼうさいくんれん</rt></ruby>を<ruby>実施<rt>じっし</rt></ruby>する",
+        "<ruby>日<rt>ひ</rt></ruby>ごろから<ruby>我慢<rt>がまん</rt></ruby>する",
+        "<ruby>非常災害時<rt>ひじょうさいがいじ</rt></ruby>の<ruby>連携体制<rt>れんけいたいせい</rt></ruby>を<ruby>整備<rt>せいび</rt></ruby>する"
+    ],
+    answer:"<ruby>日<rt>ひ</rt></ruby>ごろから<ruby>我慢<rt>がまん</rt></ruby>する"
+},
+{
+    question:"<ruby>感染症<rt>かんせんしょう</rt></ruby>で、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>人<rt>ひと</rt></ruby>からしか<ruby>感染<rt>かんせん</rt></ruby>しない",
+        "<ruby>感染<rt>かんせん</rt></ruby>すると<ruby>死<rt>し</rt></ruby>に<ruby>至<rt>いた</rt></ruby>る",
+        "<ruby>鼻水<rt>はなみず</rt></ruby>は<ruby>素手<rt>すで</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>れてはならない",
+        "<ruby>血液<rt>けつえき</rt></ruby>は<ruby>素手<rt>すで</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>れて<ruby>良<rt>よ</rt></ruby>い"
+    ],
+    answer:"<ruby>鼻水<rt>はなみず</rt></ruby>は<ruby>素手<rt>すで</rt></ruby>で<ruby>触<rt>さわ</rt></ruby>れてはならない"
+},{
+    question:"<ruby>気道<rt>きどう</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>鼻<rt>はな</rt></ruby>から<ruby>喉<rt>のど</rt></ruby>までの<ruby>空気<rt>くうき</rt></ruby>の<ruby>通<rt>とお</rt></ruby>り<ruby>道<rt>みち</rt></ruby>",
+        "<ruby>口<rt>くち</rt></ruby>から<ruby>喉<rt>のど</rt></ruby>までの<ruby>空気<rt>くうき</rt></ruby>の<ruby>通<rt>とお</rt></ruby>り<ruby>道<rt>みち</rt></ruby>",
+        "<ruby>鼻<rt>はな</rt></ruby>から<ruby>肺<rt>はい</rt></ruby>までの<ruby>空気<rt>くうき</rt></ruby>の<ruby>通<rt>とお</rt></ruby>り<ruby>道<rt>みち</rt></ruby>",
+        "<ruby>口<rt>くち</rt></ruby>から<ruby>肺<rt>はい</rt></ruby>までの<ruby>空気<rt>くうき</rt></ruby>の<ruby>通<rt>とお</rt></ruby>り<ruby>道<rt>みち</rt></ruby>"
+    ],
+    answer:"<ruby>鼻<rt>はな</rt></ruby>から<ruby>肺<rt>はい</rt></ruby>までの<ruby>空気<rt>くうき</rt></ruby>の<ruby>通<rt>とお</rt></ruby>り<ruby>道<rt>みち</rt></ruby>"
+},
+{
+    question:"<ruby>呼吸器系<rt>こきゅうきけい</rt></ruby>の<ruby>異常<rt>いじょう</rt></ruby>のサインとして、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>咳<rt>せき</rt></ruby>がおさまる",
+        "<ruby>舌<rt>した</rt></ruby>が<ruby>痛<rt>いた</rt></ruby>くなる",
+        "たんの<ruby>色<rt>いろ</rt></ruby>が<ruby>変化<rt>へんか</rt></ruby>する",
+        "たんがおさまる"
+    ],
+    answer:"たんの<ruby>色<rt>いろ</rt></ruby>が<ruby>変化<rt>へんか</rt></ruby>する"
+},{
+    question:"<ruby>手洗<rt>てあら</rt></ruby>いについて、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>流水<rt>りゅうすい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>う",
+        "せっけんを<ruby>使<rt>つか</rt></ruby>う",
+        "<ruby>腕時計<rt>うでどけい</rt></ruby>は<ruby>外<rt>はず</rt></ruby>す",
+        "<ruby>指輪<rt>ゆびわ</rt></ruby>は<ruby>外<rt>はず</rt></ruby>さない"
+    ],
+    answer:"<ruby>指輪<rt>ゆびわ</rt></ruby>は<ruby>外<rt>はず</rt></ruby>さない"
+},
+{
+    question:"<ruby>血圧<rt>けつあつ</rt></ruby>が<ruby>高<rt>たか</rt></ruby>くなるときで、<br>以下の4つから<ruby>間違<rt>まちが</rt></ruby>っているものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>急激<rt>きゅうげき</rt></ruby>な<ruby>運動<rt>うんどう</rt></ruby>",
+        "<ruby>急激<rt>きゅうげき</rt></ruby>な<ruby>温度変化<rt>おんどへんか</rt></ruby>",
+        "<ruby>興奮<rt>こうふん</rt></ruby>したとき",
+        "<ruby>寝<rt>ね</rt></ruby>ているとき"
+    ],
+    answer:"<ruby>寝<rt>ね</rt></ruby>ているとき"
+},
+{
+    question:"<ruby>記憶障害<rt>きおくしょうがい</rt></ruby>について、<br>以下の4つから<ruby>正<rt>ただ</rt></ruby>しいものを<ruby>選<rt>えら</rt></ruby>びなさい。",
+    choices:[
+        "<ruby>人物<rt>じんぶつ</rt></ruby>を<ruby>認知<rt>にんち</rt></ruby>できなくなる",
+        "<ruby>物事<rt>ものごと</rt></ruby>の<ruby>判断<rt>はんだん</rt></ruby>ができなくなる",
+        "<ruby>新<rt>あたら</rt></ruby>しい<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えられなくなる",
+        "メモが<ruby>取<rt>と</rt></ruby>れなくなる"
+    ],
+    answer:"<ruby>新<rt>あたら</rt></ruby>しい<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>覚<rt>おぼ</rt></ruby>えられなくなる"
+},
 ];
