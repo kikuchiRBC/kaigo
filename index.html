@@ -24,7 +24,9 @@ Cleaning Test,
 Hotel Cleaning
 ">
 <style>
-
+html{
+scroll-behavior:smooth;
+}
 #questionText{
     font-size:30px;
     font-weight:bold;
@@ -556,6 +558,36 @@ text-shadow:
 .floating-close-btn:hover{
     transform:scale(1.05);
 }
+.nav{
+    position:fixed;
+    bottom:12px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:8px;
+    z-index:9999;
+}
+
+.nav a{
+    text-decoration:none;
+    padding:8px 14px;
+    border-radius:999px;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+/* 単語一覧 */
+.nav a:first-child{
+    background:linear-gradient(45deg,#4caf50,#81c784);
+}
+
+/* トップ */
+.nav a:last-child{
+    background:linear-gradient(45deg,#2196f3,#64b5f6);
+}
+
 @media (max-width:768px){
 
     body{
@@ -625,7 +657,7 @@ text-shadow:
 </style>
 
 </head>
-<body>
+<body id="top">
 
 
   
@@ -643,7 +675,7 @@ text-shadow:
 
   </svg>
 </section>
-
+<main>
 <div class="bubble-background"></div>
     <h1>特定技能介護試験対策【無料問題集】</h1>
 <div class="intro-box">
@@ -745,7 +777,14 @@ You can practice with quizzes designed to closely match the actual test format.
 <button onclick="goHome()">RESET</button>
 </div>
 </div></div></div>
+</main>
+<nav class="nav">
+    <a href="kaigo_word_70.html">🏠 単語一覧へ</a>
 
+    <a href="javascript:void(0);" onclick="goTop();">
+        ⬆ トップ
+    </a>
+</nav>
 </section>
 <script src="js/QuizData1.js"></script>
 <script src="js/QuizData2.js"></script>
@@ -772,7 +811,16 @@ function startTest2(){
     allQuizData = [...QuizData2];
 startQuiz(45);
 }
+function goTop(){
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+    });
 
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+}
 function makeChoices(correct){
 
     if(imageQuizData.length < 4){
