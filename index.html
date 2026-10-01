@@ -997,12 +997,15 @@ const q = quizData[current];
 
 if(q.image){
 
-    document.getElementById("toolImage").style.display = "block";
     document.getElementById("toolImage").src = q.image;
 
-    document.getElementById("questionText").style.display = "block";
-    document.getElementById("questionText").innerHTML =
-        q.question || "";
+    document.getElementById("toolImage").style.display = "block";
+
+    document.getElementById("toolImage").onclick = function(){
+        openQuizImage(q.image);
+    };
+
+    document.getElementById("toolImage").style.cursor = "zoom-in";
 
 }else{
 
@@ -1226,77 +1229,676 @@ setInterval(createBubble, 1200);
 
 });
 
+/* ==================================================
+   問題一覧
+================================================== */
+
 function showQuestionList(){
 
     document.getElementById("start").style.display = "none";
 
-let html = `
-<div class="question-list-page" style="
-    background:white;
-    max-width:900px;
-    margin:20px auto;
-    padding:20px;
-    border-radius:15px;
-    text-align:left;
-">
-<h2>📚 問題一覧</h2>
-`;
-
-allQuizData.forEach((q,index)=>{
-
-    html += `
-    <div style="
-        margin-bottom:20px;
-        padding:10px;
-        border-bottom:1px solid #cccccc;
+    let html = `
+    <div class="question-list-page" style="
+        background:white;
+        max-width:900px;
+        margin:20px auto;
+        padding:20px;
+        border-radius:15px;
+        text-align:left;
     ">
-        <b>${index + 1}.</b><br><br>
+
+    <h2>📚 問題一覧</h2>
     `;
 
-    // 画像問題
-    if(q.image){
+
+    allQuizData.forEach((q,index)=>{
+
         html += `
-            <img src="${q.image}"
-                 style="max-width:150px;width:100%;height:auto;">
+        <div style="
+            margin-bottom:25px;
+            padding:15px;
+            border-bottom:1px solid #cccccc;
+        ">
+
+            <b style="
+                font-size:18px;
+                color:#003366;
+            ">
+                問題 ${index + 1}
+            </b>
+
             <br><br>
         `;
-    }
 
-    // 文章問題
-    if(q.question){
-        html += `${q.question}<br><br>`;
-    }
+
+        /* =================================
+           画像
+        ================================= */
+
+        if(q.image){
+
+            html += `
+                <img
+                    src="${q.image}"
+                    alt="介護問題 ${index + 1}"
+                    onclick="openListQuestionImage(${index})"
+                    style="
+                        max-width:150px;
+                        width:100%;
+                        height:auto;
+                        display:block;
+                        margin:10px auto;
+                        cursor:zoom-in;
+                        border-radius:8px;
+                        box-shadow:0 3px 10px rgba(0,0,0,0.2);
+                    "
+                >
+
+                <div style="
+                    text-align:center;
+                    font-size:13px;
+                    color:#666;
+                    margin-bottom:10px;
+                ">
+                    👆 画像をクリックすると拡大できます
+                </div>
+            `;
+
+        }
+
+
+        /* =================================
+           問題文
+        ================================= */
+
+        if(q.question){
+
+            html += `
+                <div style="
+                    font-size:18px;
+                    font-weight:bold;
+                    line-height:1.8;
+                    margin-bottom:15px;
+                    color:#003366;
+                ">
+                    ${q.question}
+                </div>
+            `;
+
+        }
+
+
+        /* =================================
+           選択肢
+        ================================= */
+
+        if(q.choices){
+
+            html += `
+                <div style="
+                    line-height:2;
+                    margin-bottom:15px;
+                    font-size:16px;
+                ">
+                    ${q.choices
+                        .map(c => `・${c}`)
+                        .join("<br>")
+                    }
+                </div>
+            `;
+
+        }
+
+
+        /* =================================
+           答えを見る
+        ================================= */
+
+        html += `
+            <button
+                onclick="showQuestionAnswer(${index})"
+                id="questionAnswerButton-${index}"
+                style="
+                    padding:8px 15px;
+                    font-size:14px;
+                    width:auto;
+                    min-height:auto;
+                    margin:5px 0;
+                "
+            >
+                🔍 答えを見る
+            </button>
+
+            <div
+                id="questionAnswer-${index}"
+                style="
+                    display:none;
+                    margin-top:10px;
+                    padding:10px;
+                    background:#fff3cd;
+                    border-radius:8px;
+                    color:red;
+                    font-weight:bold;
+                    font-size:17px;
+                "
+            >
+                正解：${q.answer}
+            </div>
+
+        </div>
+        `;
+
+    });
+
 
     html += `
-        <span style="color:red;font-weight:bold;">
-            正解：${q.answer}
-        </span>
-        <br><br>
+        <button
+            class="floating-close-btn"
+            onclick="closeQuestionList()"
+        >
+            ← もどる
+        </button>
+
+    </div>
     `;
 
-    if(q.choices){
-        html += q.choices.map(c => `・${c}`).join("<br>");
-    }
-
-    html += `</div>`;
-});
-
-html += `
-<button
-    class="floating-close-btn"
-    onclick="closeQuestionList()">
-    ← もどる
-</button>
-</div>
-`;
 
     document.querySelector(".container").innerHTML = html;
 }
 
-function closeQuestionList(){
-    location.reload();
+
+/* ==================================================
+   問題一覧の画像を拡大
+   問題文＋ルビ＋画像＋選択肢も表示
+================================================== */
+
+function openListQuestionImage(index){
+
+    const q = allQuizData[index];
+
+    if(!q) return;
+
+
+    const overlay = document.createElement("div");
+
+    overlay.id = "listQuestionImageOverlay";
+
+    overlay.style.cssText = `
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.92);
+        z-index:999999;
+        overflow-y:auto;
+        padding:15px;
+        box-sizing:border-box;
+    `;
+
+
+    const box = document.createElement("div");
+
+    box.style.cssText = `
+        width:95%;
+        max-width:900px;
+        margin:20px auto;
+        background:white;
+        border-radius:15px;
+        padding:20px;
+        box-sizing:border-box;
+        text-align:left;
+    `;
+
+
+    /* =================================
+       問題番号
+    ================================= */
+
+    const number = document.createElement("div");
+
+    number.innerHTML = `
+        問題 ${index + 1}
+    `;
+
+    number.style.cssText = `
+        font-size:18px;
+        font-weight:bold;
+        color:#666;
+        margin-bottom:15px;
+    `;
+
+    box.appendChild(number);
+
+
+    /* =================================
+       問題文
+       → innerHTMLなのでルビも表示
+    ================================= */
+
+    if(q.question){
+
+        const question = document.createElement("div");
+
+        question.innerHTML = q.question;
+
+        question.style.cssText = `
+            font-size:24px;
+            font-weight:bold;
+            line-height:2;
+            color:#003366;
+            margin-bottom:20px;
+        `;
+
+        box.appendChild(question);
+
+    }
+
+
+    /* =================================
+       大きな画像
+    ================================= */
+
+    if(q.image){
+
+        const image = document.createElement("img");
+
+        image.src = q.image;
+
+        image.style.cssText = `
+            display:block;
+            width:auto;
+            max-width:100%;
+            max-height:65vh;
+            height:auto;
+            object-fit:contain;
+            margin:10px auto 25px;
+            border-radius:8px;
+            box-shadow:0 3px 15px rgba(0,0,0,0.3);
+        `;
+
+        box.appendChild(image);
+
+    }
+
+
+    /* =================================
+       選択肢
+       → ここもinnerHTMLなのでルビOK
+    ================================= */
+
+    if(q.choices){
+
+        const choicesBox = document.createElement("div");
+
+        choicesBox.style.cssText = `
+            font-size:20px;
+            line-height:2;
+            font-weight:bold;
+            color:#333;
+            background:#f5f5f5;
+            border-radius:10px;
+            padding:15px 20px;
+            margin-top:10px;
+        `;
+
+
+        q.choices.forEach(function(choice){
+
+            const choiceItem = document.createElement("div");
+
+            choiceItem.innerHTML = choice;
+
+            choiceItem.style.cssText = `
+                padding:5px 0;
+            `;
+
+            choicesBox.appendChild(choiceItem);
+
+        });
+
+
+        box.appendChild(choicesBox);
+
+    }
+
+
+    /* =================================
+       答えを見る
+    ================================= */
+
+    const answerButton = document.createElement("button");
+
+    answerButton.innerHTML = "🔍 答えを見る";
+
+    answerButton.style.cssText = `
+        display:block;
+        margin:20px auto 0;
+        padding:10px 20px;
+        background:#81c784;
+        color:white;
+        border:none;
+        border-radius:25px;
+        font-size:16px;
+        font-weight:bold;
+        cursor:pointer;
+        width:auto;
+        min-height:auto;
+    `;
+
+
+    const answerBox = document.createElement("div");
+
+    answerBox.style.cssText = `
+        display:none;
+        margin-top:15px;
+        padding:12px;
+        background:#fff3cd;
+        border-radius:10px;
+        color:red;
+        font-weight:bold;
+        font-size:20px;
+        text-align:center;
+    `;
+
+    answerBox.innerHTML = `
+        正解：${q.answer}
+    `;
+
+
+    answerButton.onclick = function(){
+
+        if(answerBox.style.display === "none"){
+
+            answerBox.style.display = "block";
+
+            answerButton.innerHTML = "🙈 答えを隠す";
+
+        }else{
+
+            answerBox.style.display = "none";
+
+            answerButton.innerHTML = "🔍 答えを見る";
+
+        }
+
+    };
+
+
+    box.appendChild(answerButton);
+
+    box.appendChild(answerBox);
+
+
+    /* =================================
+       閉じる
+    ================================= */
+
+    const closeButton = document.createElement("button");
+
+    closeButton.innerHTML = "✕ 閉じる";
+
+    closeButton.style.cssText = `
+        display:block;
+        margin:20px auto 0;
+        padding:10px 25px;
+        background:#ff5252;
+        color:white;
+        border:none;
+        border-radius:25px;
+        font-size:16px;
+        font-weight:bold;
+        cursor:pointer;
+        width:auto;
+        min-height:auto;
+    `;
+
+
+    closeButton.onclick = function(){
+
+        overlay.remove();
+
+    };
+
+
+    box.appendChild(closeButton);
+
+    overlay.appendChild(box);
+
+    document.body.appendChild(overlay);
+
+
+    /* =================================
+       ルビ
+    ================================= */
+
+    const rubyStyle = document.createElement("style");
+
+    rubyStyle.innerHTML = `
+        #listQuestionImageOverlay ruby rt{
+            color:#000 !important;
+            font-size:0.55em !important;
+            font-weight:normal;
+        }
+    `;
+
+    document.head.appendChild(rubyStyle);
+
 }
-</script>
+
+
+/* ==================================================
+   問題一覧の答えを表示・非表示
+================================================== */
+
+function showQuestionAnswer(index){
+
+    const answer =
+        document.getElementById(
+            "questionAnswer-" + index
+        );
+
+    const button =
+        document.getElementById(
+            "questionAnswerButton-" + index
+        );
+
+
+    if(answer.style.display === "none"){
+
+        answer.style.display = "block";
+
+        button.innerHTML = "🙈 答えを隠す";
+
+    }else{
+
+        answer.style.display = "none";
+
+        button.innerHTML = "🔍 答えを見る";
+
+    }
+
+}
+
+
+/* ==================================================
+   問題一覧を閉じる
+================================================== */
+
+function closeQuestionList(){
+
+    location.reload();
+
+}// ==============================
+// 問題画像をクリックして拡大
+// ==============================
+function openQuizImage(src){
+
+    // 現在の問題を取得
+    const q = quizData[current];
+
+    const overlay = document.createElement("div");
+
+    overlay.id = "quizImageOverlay";
+
+    overlay.style.cssText = `
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.92);
+        z-index:999999;
+        overflow-y:auto;
+        padding:20px;
+        box-sizing:border-box;
+    `;
+
+    // 中身を入れる箱
+    const box = document.createElement("div");
+
+    box.style.cssText = `
+        width:95%;
+        max-width:900px;
+        margin:20px auto;
+        background:white;
+        border-radius:15px;
+        padding:20px;
+        box-sizing:border-box;
+        text-align:left;
+    `;
+
+
+    // =========================
+    // 問題文
+    // =========================
+    if(q.question){
+
+        const question = document.createElement("div");
+
+        question.innerHTML = q.question;
+
+        question.style.cssText = `
+            font-size:24px;
+            font-weight:bold;
+            line-height:1.8;
+            color:#003366;
+            margin-bottom:20px;
+        `;
+
+        box.appendChild(question);
+    }
+
+
+    // =========================
+    // 大きな画像
+    // =========================
+    const image = document.createElement("img");
+
+    image.src = src;
+
+    image.style.cssText = `
+        display:block;
+        width:auto;
+        max-width:100%;
+        max-height:65vh;
+        height:auto;
+        object-fit:contain;
+        margin:10px auto 25px;
+        border-radius:8px;
+        box-shadow:0 3px 15px rgba(0,0,0,0.3);
+    `;
+
+    box.appendChild(image);
+
+
+    // =========================
+    // 選択肢
+    // =========================
+    if(q.choices){
+
+        const choicesBox = document.createElement("div");
+
+        choicesBox.style.cssText = `
+            font-size:20px;
+            line-height:2;
+            font-weight:bold;
+            color:#333;
+            background:#f5f5f5;
+            border-radius:10px;
+            padding:15px 20px;
+        `;
+
+        q.choices.forEach(function(choice){
+
+            const choiceItem = document.createElement("div");
+
+            choiceItem.innerHTML = choice;
+
+            choiceItem.style.cssText = `
+                padding:5px 0;
+            `;
+
+            choicesBox.appendChild(choiceItem);
+
+        });
+
+        box.appendChild(choicesBox);
+    }
+
+
+    // =========================
+    // 閉じるボタン
+    // =========================
+    const closeButton = document.createElement("button");
+
+    closeButton.innerHTML = "✕ 閉じる";
+
+    closeButton.style.cssText = `
+        display:block;
+        margin:20px auto 0;
+        padding:10px 25px;
+        background:#ff5252;
+        color:white;
+        border:none;
+        border-radius:25px;
+        font-size:16px;
+        font-weight:bold;
+        cursor:pointer;
+        width:auto;
+        min-height:auto;
+    `;
+
+    closeButton.onclick = function(){
+        overlay.remove();
+    };
+
+
+    box.appendChild(closeButton);
+
+    overlay.appendChild(box);
+
+    document.body.appendChild(overlay);
+// ==============================
+// ルビを見やすくする
+// ==============================
+const rubyStyle = document.createElement("style");
+
+rubyStyle.innerHTML = `
+    #quizImageOverlay ruby rt {
+        color:#000 !important;
+        font-size:0.55em !important;
+        font-weight:normal;
+    }
+
+    #quizImageOverlay ruby {
+        ruby-position: over;
+    }
+`;
+
+document.head.appendChild(rubyStyle);
+
+}</script>
 
 </body>
 </html>
