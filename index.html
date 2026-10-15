@@ -995,26 +995,27 @@ function loadQuiz(){
 
 const q = quizData[current];
 
-if(q.image){
+const questionText = document.getElementById("questionText");
+const toolImage = document.getElementById("toolImage");
 
-    document.getElementById("toolImage").src = q.image;
+// 問題文を表示（question と q の両方に対応）
+questionText.style.display = "block";
+questionText.innerHTML = q.question || q.q || "";
 
-    document.getElementById("toolImage").style.display = "block";
+// 画像がある場合は表示
+if (q.image) {
+    toolImage.src = q.image;
+    toolImage.style.display = "block";
+    toolImage.style.cursor = "zoom-in";
 
-    document.getElementById("toolImage").onclick = function(){
+    toolImage.onclick = function () {
         openQuizImage(q.image);
     };
-
-    document.getElementById("toolImage").style.cursor = "zoom-in";
-
-}else{
-
-    document.getElementById("toolImage").style.display = "none";
-
-    document.getElementById("questionText").style.display = "block";
-    document.getElementById("questionText").innerHTML =
-        q.question || "";
+} else {
+    toolImage.style.display = "none";
+    toolImage.onclick = null;
 }
+
 
 
     document.getElementById("count").textContent =
